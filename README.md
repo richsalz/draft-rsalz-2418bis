@@ -1,4 +1,4 @@
-# ETF Working Group Guidelines and Procedures
+# IETF Working Group Guidelines and Procedures
 
 This is the working area for the individual Internet-Draft, "ETF Working Group Guidelines and Procedures".
 
