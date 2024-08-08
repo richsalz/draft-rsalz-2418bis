@@ -4,6 +4,7 @@ abbrev: "wg-guidelines"
 docname: draft-rsalz-2418bis-latest
 submissiontype: IETF
 category: bcp
+bcp: 25
 ipr: trust200902
 area: General
 workgroup: xxxxxxx
@@ -1032,7 +1033,25 @@ they are run.
 
 This document has no IANA actions.
 
+# Change Log
+
+- Draft 0: Translated the nroff source of RFC 2418 into markdown. Changed
+the intellectual proper notices the current ones.
+
 --- back
+
+# Acknowledgments
+{:numbered="false"}
+
+We gratefully acknowledge those who have contributed to the
+development of IETF RFC's and the processes that create both
+the content and documents.
+
+In particular, we thank Scott Bradner, the author of {{?RFC2418}},
+and authors of all the documents that updated it.
+
+We are grateful to the Secretariat for helping in getting all the
+sources of {{?RFC2418}} and the subsequent documents.
 
 # Appendix:  Sample Working Group Charter
 {:numbered="false"}
