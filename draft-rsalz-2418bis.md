@@ -20,6 +20,11 @@ author:
     name: Rich Salz
     organization: Akamai Technologies
     email: rsalz@akamai.com
+ -
+    ins: S. Bradner
+    name: Scott Bradner
+    organization: SOBCO
+    email: sob@sobco.com
 
 venue:
  repo: https://github.com/richsalz/draft-rsalz-2418bis.md
@@ -52,6 +57,13 @@ including WG Chairs, WG participants, and IETF Area Directors.
 
 
 # Introduction
+
+
+       NOTE: This document started with the raw text of RFC 2026.
+       The plan is that each version of this Internet-Draft will
+       incorporate one of the 15 RFCs that updated the original.
+       Once all have been merged in, we will submit this to the
+       GENDISPATCH working group to determine the next steps.
 
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
@@ -1043,15 +1055,13 @@ the intellectual proper notices the current ones.
 # Acknowledgments
 {:numbered="false"}
 
-We gratefully acknowledge those who have contributed to the
-development of IETF RFC's and the processes that create both
-the content and documents.
+We gratefully acknowledge those who have contributed to the development of
+IETF RFC's and the processes that create both the content and documents.  In
+particular, we thank Scott Bradner, the author of {{?RFC2026}}, and the
+authors of all the documents that updated it.
 
-In particular, we thank Scott Bradner, the author of {{?RFC2418}},
-and authors of all the documents that updated it.
-
-We are grateful to the Secretariat for helping in getting all the
-sources of {{?RFC2418}} and the subsequent documents.
+We also thanks Sandy Ginoza of the Secretariat for sending all the
+original RFC sources.
 
 # Appendix:  Sample Working Group Charter
 {:numbered="false"}
