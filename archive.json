@@ -1,0 +1,98 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-08-15T01:11:03.443173+00:00",
+  "repo": "richsalz/draft-rsalz-2418bis",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOMaVM686Si5UU",
+      "title": "reference to \"conflict of interest\"",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/1",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "The original doc says in the first paragraph of section 3:\r\n```\r\nWG participants should specifically note the\r\nrequirements for disclosure of conflicts of interest in [2].\r\n```\r\n\r\n[2] is RFC 2028, obsoleted by 9281 and neither one of these mentions conflict of interest.\r\n\r\nSee email thread at https://mailarchive.ietf.org/arch/msg/ietf/8mEwZkwtL-WNCPyZ5hBd7FaWVq8/\r\n",
+      "createdAt": "2024-08-09T20:26:48Z",
+      "updatedAt": "2024-08-09T20:26:48Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOMaVM6853_HRC",
+      "title": "Incorporate RFC 3934",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/2",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-08-09T20:39:24Z",
+      "updatedAt": "2024-08-09T20:39:32Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "45b24c5713dc39a3cf570bba1ab6665ca6fd7224",
+      "headRepository": "richsalz/draft-rsalz-2418bis",
+      "headRefName": "rfc3934",
+      "headRefOid": "650f88d2189c5152e0fdae1b6610d23e2d9598aa",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
