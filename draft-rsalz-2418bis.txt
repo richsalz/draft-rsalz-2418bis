@@ -4,10 +4,11 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 7475, 7776, 8717, 9141               24 July 2024
-           (if approved)                                                
+Obsoletes: 2418, 3934, 7776, 8717, 9141 (if               26 August 2024
+           approved)                                                    
+Updates: 7475 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 25 January 2025
+Expires: 27 February 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -24,6 +25,9 @@ Abstract
    Engineering Steering Group (IESG) and the basic duties of IETF
    participants, including WG Chairs, WG participants, and IETF Area
    Directors.
+
+   This document obsoletes RFC2418, RFC3934, RFC7776, RFC8717, and
+   RFC9141.  It updates RFC7475.
 
 About This Document
 
@@ -50,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 January 2025.
+   This Internet-Draft will expire on 27 February 2025.
 
 Copyright Notice
 
@@ -103,14 +107,25 @@ Table of Contents
    9.  Review of documents
    10. Security Considerations
    11. IANA Considerations
-   12. References
-     12.1.  Normative References
-     12.2.  Informative References
+   12. Change Log
+   13. References
+     13.1.  Normative References
+     13.2.  Informative References
+   Acknowledgments
    Appendix: Sample Working Group Charter
    Acknowledgments
    Author's Address
 
 1.  Introduction
+
+       NOTE: This document started with the raw text of RFC 2418.  The
+       plan is that each version of this Internet-Draft will
+       incorporate one of the six RFCs that updated the original. Once
+       all have been mergfed in, we will submit this to the GENDISPATCH
+       working group to determine the next steps.
+
+       Specifically, the RFCs to be incorporated are RFC 2418, RFC
+       3934, RFC 7475, RFC 7776, RFC 8717, and RFC 9141
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -1105,9 +1120,14 @@ Table of Contents
 
    This document has no IANA actions.
 
-12.  References
+12.  Change Log
 
-12.1.  Normative References
+   *  Draft 0: Translated the nroff source of RFC 2418 into markdown.
+      Changed the intellectual proper notices the current ones.
+
+13.  References
+
+13.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -1118,7 +1138,7 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
-12.2.  Informative References
+13.2.  Informative References
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
@@ -1132,6 +1152,10 @@ Table of Contents
               White Pages Service", BCP 15, RFC 2148,
               DOI 10.17487/RFC2148, September 1997,
               <https://www.rfc-editor.org/rfc/rfc2148>.
+
+   [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
+              Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
+              September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
 
    [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
               DOI 10.17487/RFC7322, September 2014,
@@ -1147,6 +1171,18 @@ Table of Contents
    [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
               Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
+
+Acknowledgments
+
+   We gratefully acknowledge those who have contributed to the
+   development of IETF RFC's and the processes that create both the
+   content and documents.
+
+   In particular, we thank Scott Bradner, the author of [RFC2418], and
+   authors of all the documents that updated it.
+
+   We are grateful to the Secretariat for helping in getting all the
+   sources of [RFC2418] and the subsequent documents.
 
 Appendix: Sample Working Group Charter
 

@@ -15,23 +15,26 @@ and operation of IETF working groups. It also describes the formal
 relationship between IETF participants WG and the Internet Engineering
 Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors. 
+       This document obsoletes
+RFC2418, RFC3934, RFC7776, RFC8717, and RFC9141.
+It updates RFC7475. 
     " name="description">
 <meta content="xml2rfc 3.22.0" name="generator">
 <meta content="process" name="keyword">
 <meta content="draft-rsalz-2418bis-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.22.0
-    Python 3.12.4
+    Python 3.12.3
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.4
     lxml 4.9.4
     platformdirs 4.2.2
-    pycountry 24.6.1
+    pycountry 22.3.5
     PyYAML 6.0.1
     requests 2.32.3
-    setuptools 71.1.0
+    setuptools 70.3.0
     wcwidth 0.2.13
 -->
 <link href="draft-rsalz-2418bis.xml" rel="alternate" type="application/rfc+xml">
@@ -1031,11 +1034,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">wg-guidelines</td>
-<td class="right">July 2024</td>
+<td class="right">August 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Salz</td>
-<td class="center">Expires 25 January 2025</td>
+<td class="center">Expires 27 February 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1048,15 +1051,18 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-rsalz-2418bis-latest</dd>
 <dt class="label-obsoletes">Obsoletes:</dt>
 <dd class="obsoletes">
-<a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a>, <a href="https://www.rfc-editor.org/rfc/rfc3934" class="eref">3934</a>, <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a>, <a href="https://www.rfc-editor.org/rfc/rfc7776" class="eref">7776</a>, <a href="https://www.rfc-editor.org/rfc/rfc8717" class="eref">8717</a>, <a href="https://www.rfc-editor.org/rfc/rfc9141" class="eref">9141</a> (if approved)</dd>
+<a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a>, <a href="https://www.rfc-editor.org/rfc/rfc3934" class="eref">3934</a>, <a href="https://www.rfc-editor.org/rfc/rfc7776" class="eref">7776</a>, <a href="https://www.rfc-editor.org/rfc/rfc8717" class="eref">8717</a>, <a href="https://www.rfc-editor.org/rfc/rfc9141" class="eref">9141</a> (if approved)</dd>
+<dt class="label-updates">Updates:</dt>
+<dd class="updates">
+<a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-07-24" class="published">24 July 2024</time>
+<time datetime="2024-08-26" class="published">26 August 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-01-25">25 January 2025</time></dd>
+<dd class="expires"><time datetime="2025-02-27">27 February 2025</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1077,6 +1083,9 @@ and operation of IETF working groups. It also describes the formal
 relationship between IETF participants WG and the Internet Engineering
 Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">This document obsoletes
+RFC2418, RFC3934, RFC7776, RFC8717, and RFC9141.
+It updates RFC7475.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1107,7 +1116,7 @@ including WG Chairs, WG participants, and IETF Area Directors.<a href="#section-
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 25 January 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 27 February 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1254,24 +1263,30 @@ including WG Chairs, WG participants, and IETF Area Directors.<a href="#section-
             <p id="section-toc.1-1.11.1"><a href="#section-11" class="auto internal xref">11</a>. <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12">
-            <p id="section-toc.1-1.12.1"><a href="#section-12" class="auto internal xref">12</a>. <a href="#name-references" class="internal xref">References</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12.2.1">
-                <p id="section-toc.1-1.12.2.1.1"><a href="#section-12.1" class="auto internal xref">12.1</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+            <p id="section-toc.1-1.12.1"><a href="#section-12" class="auto internal xref">12</a>. <a href="#name-change-log" class="internal xref">Change Log</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12.2.2">
-                <p id="section-toc.1-1.12.2.2.1"><a href="#section-12.2" class="auto internal xref">12.2</a>.  <a href="#name-informative-references" class="internal xref">Informative References</a></p>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13">
+            <p id="section-toc.1-1.13.1"><a href="#section-13" class="auto internal xref">13</a>. <a href="#name-references" class="internal xref">References</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13.2.1">
+                <p id="section-toc.1-1.13.2.1.1"><a href="#section-13.1" class="auto internal xref">13.1</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13.2.2">
+                <p id="section-toc.1-1.13.2.2.1"><a href="#section-13.2" class="auto internal xref">13.2</a>.  <a href="#name-informative-references" class="internal xref">Informative References</a></p>
 </li>
             </ul>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13">
-            <p id="section-toc.1-1.13.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-appendix-sample-working-gro" class="internal xref">Appendix:  Sample Working Group Charter</a></p>
-</li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.14">
-            <p id="section-toc.1-1.14.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+            <p id="section-toc.1-1.14.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.15">
-            <p id="section-toc.1-1.15.1"><a href="#appendix-C" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
+            <p id="section-toc.1-1.15.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-appendix-sample-working-gro" class="internal xref">Appendix:  Sample Working Group Charter</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.16">
+            <p id="section-toc.1-1.16.1"><a href="#appendix-C" class="auto internal xref"></a><a href="#name-acknowledgments-2" class="internal xref">Acknowledgments</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.17">
+            <p id="section-toc.1-1.17.1"><a href="#appendix-D" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
 </li>
         </ul>
 </nav>
@@ -1282,7 +1297,19 @@ including WG Chairs, WG participants, and IETF Area Directors.<a href="#section-
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">The Internet, a loosely-organized international collaboration of
+<div class="alignLeft art-text artwork" id="section-1-1">
+<pre>
+    NOTE: This document started with the raw text of RFC 2418.  The
+    plan is that each version of this Internet-Draft will
+    incorporate one of the six RFCs that updated the original. Once
+    all have been mergfed in, we will submit this to the GENDISPATCH
+    working group to determine the next steps.
+
+    Specifically, the RFCs to be incorporated are RFC 2418, RFC
+    3934, RFC 7475, RFC 7776, RFC 8717, and RFC 9141
+</pre><a href="#section-1-1" class="pilcrow">¶</a>
+</div>
+<p id="section-1-2">The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
 communication through voluntary adherence to open protocols and
 procedures defined by Internet Standards.  There are also many
@@ -1292,8 +1319,8 @@ developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
 The Internet Standards Process of the IETF is defined in <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>. The
 organizations involved in the IETF Standards Process are described in
-<span>[<a href="#RFC9281" class="cite xref">RFC9281</a>]</span> as are the roles of specific individuals.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">The IETF is a large, open community of network designers, operators,
+<span>[<a href="#RFC9281" class="cite xref">RFC9281</a>]</span> as are the roles of specific individuals.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">The IETF is a large, open community of network designers, operators,
 vendors, users, and researchers concerned with the Internet and the
 technology used on it. The primary activities of the IETF are
 performed by committees known as working groups. There are currently
@@ -1301,44 +1328,44 @@ more than 100 working groups. (See the IETF web page for an
 up-to-date list of IETF Working Groups - http://www.ietf.org.)
 Working groups tend to have a narrow focus and a lifetime bounded by
 the completion of a specific set of tasks, although there are
-exceptions.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">For management purposes, the IETF working groups are collected
+exceptions.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">For management purposes, the IETF working groups are collected
 together into areas, with each area having a separate focus.  For
 example, the security area deals with the development of
 security-related technology.  Each IETF area is managed by one or two
 Area Directors (ADs).  There are currently 8 areas in the IETF but the
 number changes from time to time.  (See the IETF web page for a list
 of the current areas, the Area Directors for each area, and a list of
-which working groups are assigned to each area.)<a href="#section-1-3" class="pilcrow">¶</a></p>
-<p id="section-1-4">In many areas, the Area Directors have formed an advisory group or
+which working groups are assigned to each area.)<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">In many areas, the Area Directors have formed an advisory group or
 directorate.  These comprise experienced members of the IETF and the
 technical community represented by the area.  The specific name and the
 details of the role for each group differ from area to area, but the
 primary intent is that these groups assist the Area Director(s), e.g.,
-with the review of specifications produced in the area.<a href="#section-1-4" class="pilcrow">¶</a></p>
-<p id="section-1-5">The IETF area directors are selected by a nominating committee, which
+with the review of specifications produced in the area.<a href="#section-1-5" class="pilcrow">¶</a></p>
+<p id="section-1-6">The IETF area directors are selected by a nominating committee, which
 also selects an overall chair for the IETF.  The nominations process
-is described in <span>[<a href="#RFC8713" class="cite xref">RFC8713</a>]</span>.<a href="#section-1-5" class="pilcrow">¶</a></p>
-<p id="section-1-6">The area directors sitting as a body, along with the IETF Chair,
+is described in <span>[<a href="#RFC8713" class="cite xref">RFC8713</a>]</span>.<a href="#section-1-6" class="pilcrow">¶</a></p>
+<p id="section-1-7">The area directors sitting as a body, along with the IETF Chair,
 comprise the Internet Engineering Steering Group (IESG). The IETF
 Executive Director is an ex-officio participant of the IESG, as are
 the IAB Chair and a designated Internet Architecture Board (IAB)
 liaison.  The IESG approves IETF Standards and approves the
-publication of other IETF documents.  (See <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.)<a href="#section-1-6" class="pilcrow">¶</a></p>
-<p id="section-1-7">A small IETF Secretariat provides staff and administrative support for
-the operation of the IETF.<a href="#section-1-7" class="pilcrow">¶</a></p>
-<p id="section-1-8">There is no formal membership in the IETF.  Participation is open to
+publication of other IETF documents.  (See <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.)<a href="#section-1-7" class="pilcrow">¶</a></p>
+<p id="section-1-8">A small IETF Secretariat provides staff and administrative support for
+the operation of the IETF.<a href="#section-1-8" class="pilcrow">¶</a></p>
+<p id="section-1-9">There is no formal membership in the IETF.  Participation is open to
 all.  This participation may be by on-line contribution, attendance at
 face-to-face sessions, or both.  Anyone from the Internet community
 who has the time and interest is urged to participate in IETF meetings
 and any of its on-line working group discussions. Participation is by
 individual technical contributors, rather than by formal
-representatives of organizations.<a href="#section-1-8" class="pilcrow">¶</a></p>
-<p id="section-1-9">This document defines procedures and guidelines for the formation and
+representatives of organizations.<a href="#section-1-9" class="pilcrow">¶</a></p>
+<p id="section-1-10">This document defines procedures and guidelines for the formation and
 operation of working groups in the IETF. It defines the relations of
 working groups to other bodies within the IETF. The duties of working
 group Chairs and Area Directors with respect to the operation of the
-working group are also defined.<a href="#section-1-9" class="pilcrow">¶</a></p>
+working group are also defined.<a href="#section-1-10" class="pilcrow">¶</a></p>
 <div id="ietf-approach-to-standardization">
 <section id="section-1.1">
         <h3 id="name-ietf-approach-to-standardiz">
@@ -2472,15 +2499,28 @@ they are run.<a href="#section-10-2" class="pilcrow">¶</a></p>
 <p id="section-11-1">This document has no IANA actions.<a href="#section-11-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="sec-combined-references">
+<div id="change-log">
 <section id="section-12">
+      <h2 id="name-change-log">
+<a href="#section-12" class="section-number selfRef">12. </a><a href="#name-change-log" class="section-name selfRef">Change Log</a>
+      </h2>
+<ul class="normal">
+<li class="normal" id="section-12-1.1">
+          <p id="section-12-1.1.1">Draft 0: Translated the nroff source of RFC 2418 into markdown. Changed
+the intellectual proper notices the current ones.<a href="#section-12-1.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+</section>
+</div>
+<div id="sec-combined-references">
+<section id="section-13">
       <h2 id="name-references">
-<a href="#section-12" class="section-number selfRef">12. </a><a href="#name-references" class="section-name selfRef">References</a>
+<a href="#section-13" class="section-number selfRef">13. </a><a href="#name-references" class="section-name selfRef">References</a>
       </h2>
 <div id="sec-normative-references">
-<section id="section-12.1">
+<section id="section-13.1">
         <h3 id="name-normative-references">
-<a href="#section-12.1" class="section-number selfRef">12.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
+<a href="#section-13.1" class="section-number selfRef">13.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
 <dt id="RFC2119">[RFC2119]</dt>
@@ -2495,9 +2535,9 @@ they are run.<a href="#section-10-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="sec-informative-references">
-<section id="section-12.2">
+<section id="section-13.2">
         <h3 id="name-informative-references">
-<a href="#section-12.2" class="section-number selfRef">12.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
+<a href="#section-13.2" class="section-number selfRef">13.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
 <dt id="RFC1796">[RFC1796]</dt>
@@ -2511,6 +2551,10 @@ they are run.<a href="#section-10-2" class="pilcrow">¶</a></p>
 <dt id="RFC2148">[RFC2148]</dt>
         <dd>
 <span class="refAuthor">Alvestrand, H.</span> and <span class="refAuthor">P. Jurg</span>, <span class="refTitle">"Deployment of the Internet White Pages Service"</span>, <span class="seriesInfo">BCP 15</span>, <span class="seriesInfo">RFC 2148</span>, <span class="seriesInfo">DOI 10.17487/RFC2148</span>, <time datetime="1997-09" class="refDate">September 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2148">https://www.rfc-editor.org/rfc/rfc2148</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC2418">[RFC2418]</dt>
+        <dd>
+<span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"IETF Working Group Guidelines and Procedures"</span>, <span class="seriesInfo">BCP 25</span>, <span class="seriesInfo">RFC 2418</span>, <span class="seriesInfo">DOI 10.17487/RFC2418</span>, <time datetime="1998-09" class="refDate">September 1998</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2418">https://www.rfc-editor.org/rfc/rfc2418</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="RFC7322">[RFC7322]</dt>
         <dd>
@@ -2529,12 +2573,26 @@ they are run.<a href="#section-10-2" class="pilcrow">¶</a></p>
 </div>
 </section>
 </div>
-<div id="appendix-sample-working-group-charter">
+<div id="acknowledgments">
 <section id="appendix-A">
+      <h2 id="name-acknowledgments">
+<a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
+      </h2>
+<p id="appendix-A-1">We gratefully acknowledge those who have contributed to the
+development of IETF RFC's and the processes that create both
+the content and documents.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
+<p id="appendix-A-2">In particular, we thank Scott Bradner, the author of <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span>,
+and authors of all the documents that updated it.<a href="#appendix-A-2" class="pilcrow">¶</a></p>
+<p id="appendix-A-3">We are grateful to the Secretariat for helping in getting all the
+sources of <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span> and the subsequent documents.<a href="#appendix-A-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="appendix-sample-working-group-charter">
+<section id="appendix-B">
       <h2 id="name-appendix-sample-working-gro">
 <a href="#name-appendix-sample-working-gro" class="section-name selfRef">Appendix:  Sample Working Group Charter</a>
       </h2>
-<div class="alignLeft art-text artwork" id="appendix-A-1">
+<div class="alignLeft art-text artwork" id="appendix-B-1">
 <pre>
 Working Group Name:
     IP Telephony (iptel)
@@ -2616,24 +2674,24 @@ Dec 98    Achieve consensus on basics of gateway attribute
       distribution protocol
 Jan 99    Submit Gateway Attribute Distribution protocol to IESG
       for consideration as a RFC (info, exp, stds track TB
-</pre><a href="#appendix-A-1" class="pilcrow">¶</a>
+</pre><a href="#appendix-B-1" class="pilcrow">¶</a>
 </div>
 </section>
 </div>
-<div id="acknowledgments">
-<section id="appendix-B">
-      <h2 id="name-acknowledgments">
-<a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
+<div id="acknowledgments-1">
+<section id="appendix-C">
+      <h2 id="name-acknowledgments-2">
+<a href="#name-acknowledgments-2" class="section-name selfRef">Acknowledgments</a>
       </h2>
-<p id="appendix-B-1">We gratefully acknowledge those who have contributed to the
+<p id="appendix-C-1">We gratefully acknowledge those who have contributed to the
 development of IETF RFC's and the processes that create both
-the content and documents.<a href="#appendix-B-1" class="pilcrow">¶</a></p>
-<p id="appendix-B-2">In particular, we thank Scott Bradner, the author of <span>[<a href="#RFC2148" class="cite xref">RFC2148</a>]</span>,
-and authors of all the documents that updated it.<a href="#appendix-B-2" class="pilcrow">¶</a></p>
+the content and documents.<a href="#appendix-C-1" class="pilcrow">¶</a></p>
+<p id="appendix-C-2">In particular, we thank Scott Bradner, the author of <span>[<a href="#RFC2148" class="cite xref">RFC2148</a>]</span>,
+and authors of all the documents that updated it.<a href="#appendix-C-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">
-<section id="appendix-C">
+<section id="appendix-D">
       <h2 id="name-authors-address">
 <a href="#name-authors-address" class="section-name selfRef">Author's Address</a>
       </h2>
