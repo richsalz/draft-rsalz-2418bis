@@ -111,7 +111,6 @@ Table of Contents
    13. References
      13.1.  Normative References
      13.2.  Informative References
-   Acknowledgments
    Appendix: Sample Working Group Charter
    Acknowledgments
    Author's Address
@@ -1148,11 +1147,6 @@ Table of Contents
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
 
-   [RFC2148]  Alvestrand, H. and P. Jurg, "Deployment of the Internet
-              White Pages Service", BCP 15, RFC 2148,
-              DOI 10.17487/RFC2148, September 1997,
-              <https://www.rfc-editor.org/rfc/rfc2148>.
-
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
@@ -1171,18 +1165,6 @@ Table of Contents
    [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
               Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
-
-Acknowledgments
-
-   We gratefully acknowledge those who have contributed to the
-   development of IETF RFC's and the processes that create both the
-   content and documents.
-
-   In particular, we thank Scott Bradner, the author of [RFC2418], and
-   authors of all the documents that updated it.
-
-   We are grateful to the Secretariat for helping in getting all the
-   sources of [RFC2418] and the subsequent documents.
 
 Appendix: Sample Working Group Charter
 
@@ -1273,8 +1255,8 @@ Acknowledgments
    development of IETF RFC's and the processes that create both the
    content and documents.
 
-   In particular, we thank Scott Bradner, the author of [RFC2148], and
-   authors of all the documents that updated it.
+   We are grateful to the Secretariat for helping in getting all the
+   sources of [RFC2418] and the subsequent documents.
 
 Author's Address
 
