@@ -4,9 +4,9 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 7776, 8717, 9141 (if               29 August 2024
-           approved)                                                    
-Updates: 7475 (if approved)                                             
+Obsoletes: 2418, 3934, 7776, 8717, 9141 (if                   S. Bradner
+           approved)                                               SOBCO
+Updates: 7475 (if approved)                               29 August 2024
 Intended status: Best Current Practice                                  
 Expires: 2 March 2025
 
@@ -113,7 +113,7 @@ Table of Contents
      13.2.  Informative References
    Appendix: Sample Working Group Charter
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -1280,8 +1280,13 @@ Acknowledgments
    We also thank Sandy Ginoza of the Secretariat for sending all the
    original RFC sources.
 
-Author's Address
+Authors' Addresses
 
    Rich Salz
    Akamai Technologies
    Email: rsalz@akamai.com
+
+
+   Scott Bradner
+   SOBCO
+   Email: sob@sobco.com
