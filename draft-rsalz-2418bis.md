@@ -1053,19 +1053,6 @@ the intellectual proper notices the current ones.
 
 --- back
 
-# Acknowledgments
-{:numbered="false"}
-
-We gratefully acknowledge those who have contributed to the
-development of IETF RFC's and the processes that create both
-the content and documents.
-
-In particular, we thank Scott Bradner, the author of {{?RFC2418}},
-and authors of all the documents that updated it.
-
-We are grateful to the Secretariat for helping in getting all the
-sources of {{?RFC2418}} and the subsequent documents.
-
 # Appendix:  Sample Working Group Charter
 {:numbered="false"}
 
@@ -1159,5 +1146,5 @@ We gratefully acknowledge those who have contributed to the
 development of IETF RFC's and the processes that create both
 the content and documents.
 
-In particular, we thank Scott Bradner, the author of {{?RFC2148}},
-and authors of all the documents that updated it.
+We are grateful to the Secretariat for helping in getting all the
+sources of {{?RFC2418}} and the subsequent documents.
