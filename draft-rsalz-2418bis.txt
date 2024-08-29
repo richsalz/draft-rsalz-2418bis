@@ -4,11 +4,11 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 7776, 8717, 9141 (if               26 August 2024
+Obsoletes: 2418, 3934, 7776, 8717, 9141 (if               29 August 2024
            approved)                                                    
 Updates: 7475 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 27 February 2025
+Expires: 2 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 February 2025.
+   This Internet-Draft will expire on 2 March 2025.
 
 Copyright Notice
 
