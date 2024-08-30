@@ -21,6 +21,11 @@ author:
     name: Rich Salz
     organization: Akamai Technologies
     email: rsalz@akamai.com
+ -
+    ins: S. Bradner
+    name: Scott Bradner
+    organization: SOBCO
+    email: sob@sobco.com
 
 venue:
  repo: https://github.com/richsalz/draft-rsalz-2418bis.md
@@ -28,12 +33,6 @@ venue:
 normative:
 
 informative:
-  RFC2026: RFC2026
-  RFC7322: RFC7322
-  RFC8713: RFC8713
-  RFC9281: RFC9281
-  RFC9281: RFC9281
-
 
 --- abstract
 
@@ -74,9 +73,9 @@ isolated interconnected networks, which are not connected to the
 global Internet but use the Internet Standards. Internet Standards are
 developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
-The Internet Standards Process of the IETF is defined in {{RFC2026}}. The
+The Internet Standards Process of the IETF is defined in {{?RFC2026}}. The
 organizations involved in the IETF Standards Process are described in
-{{RFC9281}} as are the roles of specific individuals.
+{{!RFC9281}} as are the roles of specific individuals.
 
 The IETF is a large, open community of network designers, operators,
 vendors, users, and researchers concerned with the Internet and the
@@ -106,7 +105,7 @@ with the review of specifications produced in the area.
 
 The IETF area directors are selected by a nominating committee, which
 also selects an overall chair for the IETF.  The nominations process
-is described in {{RFC8713}}.
+is described in {{?RFC8713}}.
 
 The area directors sitting as a body, along with the IETF Chair,
 comprise the Internet Engineering Steering Group (IESG). The IETF
@@ -351,7 +350,7 @@ but "discuss via email" is not. It is helpful to specify milestones
 for every 3-6 months, so that progress can be gauged easily.  This
 milestone list is expected to be updated periodically (see {{sec5}}).
 
-An example of a WG charter is included as Appendix A.
+An example of a WG charter is included as {{sample-charter}}.
 
 ## Charter review & approval
 
@@ -577,19 +576,33 @@ possible for a much wider base of interested persons than is
 attendance at IETF meetings, due to the time and expense required to
 attend.
 
-As with face-to-face sessions occasionally one or more individuals may
-engage in behavior on a mailing list which disrupts the WG's progress.
-In these cases the Chair should attempt to discourage the behavior by
-communication directly with the offending individual rather than on
-the open mailing list.  If the behavior persists then the Chair must
-involve the Area Director in the issue.  As a last resort and after
-explicit warnings, the Area Director, with the approval of the IESG,
-may request that the mailing list maintainer block the ability of the
-offending individual to post to the mailing list. (If the mailing list
-software permits this type of operation.)  Even if this is done, the
-individual must not be prevented from receiving messages posted to the
-list.  Other methods of mailing list control may be considered but
-must be approved by the AD(s) and the IESG.
+As in face-to-face sessions, occasionally one or more individuals may
+engage in behavior on a mailing list that, in the opinion of the WG
+chair, is disruptive to the WG process.  Unless the disruptive
+behavior is severe enough that it must be stopped immediately, the
+WG chair should attempt to discourage the disruptive behavior by
+communicating directly with the offending individual.  If the
+behavior persists, the WG chair should send at least one public
+warning on the WG mailing list.  As a last resort and typically after
+one or more explicit warnings and consultation with the responsible
+Area Director, the WG chair may suspend the mailing list posting
+privileges of the disruptive individual for a period of not more than
+30 days.  Even while posting privileges are suspended, the individual
+must not be prevented from receiving messages posted to the
+list.  Like all other WG chair decisions, any suspension of posting
+privileges is subject to appeal, as described in {{RFC2026}}.
+
+This mechanism is intended to permit a WG chair to suspend posting
+privileges of a disruptive individual for a short period of
+time.  This mechanism does not permit WG chairs to suspend an individual's
+posting privileges for a period longer than 30 days regardless of the
+type or severity of the disruptive incident.  However, further
+disruptive behavior by the same individual will be considered
+separately and may result in further warnings or suspensions.  Other
+methods of mailing list control, including longer suspensions, must
+be carried out in accordance with other IETF-approved procedures.  See
+{{?RFC3683}} for one set of procedures already defined and
+accepted by the community.
 
 ## Session management
 
@@ -809,7 +822,7 @@ agreed to by the WG (see section 6.3).
 - Document publication
 
 The Chair and/or Document Editor will work with the RFC Editor to
-ensure document conformance with RFC publication requirements {{RFC7322}} and
+ensure document conformance with RFC publication requirements {{?RFC7322}} and
 to coordinate any editorial changes suggested by the RFC Editor.  A
 particular concern is that all participants are working from the same
 version of a document at the same time.
@@ -1051,9 +1064,12 @@ This document has no IANA actions.
 - Draft 0: Translated the nroff source of RFC 2418 into markdown. Changed
 the intellectual proper notices the current ones.
 
+- Draft 1: Incorporated RFC 3934. Fixed a few minor typo's and cut/paste
+errors. Fixed updates/obsoletes headers and comments.
+
 --- back
 
-# Appendix:  Sample Working Group Charter
+# Appendix:  Sample Working Group Charter {#sample-charter}
 {:numbered="false"}
 
 ~~~
@@ -1142,9 +1158,10 @@ Jan 99    Submit Gateway Attribute Distribution protocol to IESG
 # Acknowledgments
 {:numbered="false"}
 
-We gratefully acknowledge those who have contributed to the
-development of IETF RFC's and the processes that create both
-the content and documents.
+We gratefully acknowledge those who have contributed to the development of
+IETF RFC's and the processes that create both the content and documents.  In
+particular, we thank the authors of all the documents that updated
+{{?RFC2418}}.
 
-We are grateful to the Secretariat for helping in getting all the
-sources of {{?RFC2418}} and the subsequent documents.
+We also thank Sandy Ginoza of the Secretariat for sending all the
+original RFC sources.
