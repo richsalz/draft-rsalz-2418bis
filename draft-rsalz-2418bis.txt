@@ -4,11 +4,11 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 7776, 8717, 9141 (if               29 August 2024
-           approved)                                                    
-Updates: 7475 (if approved)                                             
+Obsoletes: 2418, 3934, 7776, 8717, 9141 (if                   S. Bradner
+           approved)                                               SOBCO
+Updates: 7475 (if approved)                               30 August 2024
 Intended status: Best Current Practice                                  
-Expires: 2 March 2025
+Expires: 3 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 March 2025.
+   This Internet-Draft will expire on 3 March 2025.
 
 Copyright Notice
 
@@ -113,7 +113,7 @@ Table of Contents
      13.2.  Informative References
    Appendix: Sample Working Group Charter
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -418,7 +418,8 @@ Table of Contents
       3-6 months, so that progress can be gauged easily.  This milestone
       list is expected to be updated periodically (see Section 6).
 
-   An example of a WG charter is included as Appendix A.
+   An example of a WG charter is included as Appendix "Appendix: Sample
+   Working Group Charter".
 
 3.3.  Charter review & approval
 
@@ -648,20 +649,33 @@ Table of Contents
    attendance at IETF meetings, due to the time and expense required to
    attend.
 
-   As with face-to-face sessions occasionally one or more individuals
-   may engage in behavior on a mailing list which disrupts the WG's
-   progress.  In these cases the Chair should attempt to discourage the
-   behavior by communication directly with the offending individual
-   rather than on the open mailing list.  If the behavior persists then
-   the Chair must involve the Area Director in the issue.  As a last
-   resort and after explicit warnings, the Area Director, with the
-   approval of the IESG, may request that the mailing list maintainer
-   block the ability of the offending individual to post to the mailing
-   list.  (If the mailing list software permits this type of operation.)
-   Even if this is done, the individual must not be prevented from
-   receiving messages posted to the list.  Other methods of mailing list
-   control may be considered but must be approved by the AD(s) and the
-   IESG.
+   As in face-to-face sessions, occasionally one or more individuals may
+   engage in behavior on a mailing list that, in the opinion of the WG
+   chair, is disruptive to the WG process.  Unless the disruptive
+   behavior is severe enough that it must be stopped immediately, the WG
+   chair should attempt to discourage the disruptive behavior by
+   communicating directly with the offending individual.  If the
+   behavior persists, the WG chair should send at least one public
+   warning on the WG mailing list.  As a last resort and typically after
+   one or more explicit warnings and consultation with the responsible
+   Area Director, the WG chair may suspend the mailing list posting
+   privileges of the disruptive individual for a period of not more than
+   30 days.  Even while posting privileges are suspended, the individual
+   must not be prevented from receiving messages posted to the list.
+   Like all other WG chair decisions, any suspension of posting
+   privileges is subject to appeal, as described in [RFC2026].
+
+   This mechanism is intended to permit a WG chair to suspend posting
+   privileges of a disruptive individual for a short period of time.
+   This mechanism does not permit WG chairs to suspend an individual's
+   posting privileges for a period longer than 30 days regardless of the
+   type or severity of the disruptive incident.  However, further
+   disruptive behavior by the same individual will be considered
+   separately and may result in further warnings or suspensions.  Other
+   methods of mailing list control, including longer suspensions, must
+   be carried out in accordance with other IETF-approved procedures.
+   See [RFC3683] for one set of procedures already defined and accepted
+   by the community.
 
 4.3.  Session management
 
@@ -1124,6 +1138,9 @@ Table of Contents
    *  Draft 0: Translated the nroff source of RFC 2418 into markdown.
       Changed the intellectual proper notices the current ones.
 
+   *  Draft 1: Incorporated RFC 3934.  Fixed a few minor typo's and cut/
+      paste errors.  Fixed updates/obsoletes headers and comments.
+
 13.  References
 
 13.1.  Normative References
@@ -1136,6 +1153,10 @@ Table of Contents
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
+              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
+              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 13.2.  Informative References
 
@@ -1151,6 +1172,10 @@ Table of Contents
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
 
+   [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
+              Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
+              March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
+
    [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
               DOI 10.17487/RFC7322, September 2014,
               <https://www.rfc-editor.org/rfc/rfc7322>.
@@ -1161,10 +1186,6 @@ Table of Contents
               Nominating and Recall Committees", BCP 10, RFC 8713,
               DOI 10.17487/RFC8713, February 2020,
               <https://www.rfc-editor.org/rfc/rfc8713>.
-
-   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
-              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
-              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 Appendix: Sample Working Group Charter
 
@@ -1253,13 +1274,19 @@ Acknowledgments
 
    We gratefully acknowledge those who have contributed to the
    development of IETF RFC's and the processes that create both the
-   content and documents.
+   content and documents.  In particular, we thank the authors of all
+   the documents that updated [RFC2418].
 
-   We are grateful to the Secretariat for helping in getting all the
-   sources of [RFC2418] and the subsequent documents.
+   We also thank Sandy Ginoza of the Secretariat for sending all the
+   original RFC sources.
 
-Author's Address
+Authors' Addresses
 
    Rich Salz
    Akamai Technologies
    Email: rsalz@akamai.com
+
+
+   Scott Bradner
+   SOBCO
+   Email: sob@sobco.com
