@@ -4,11 +4,11 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 7776, 8717, 9141 (if               29 August 2024
-           approved)                                                    
-Updates: 7475 (if approved)                                             
+Obsoletes: 2418, 3934, 7776, 8717, 9141 (if                   S. Bradner
+           approved)                                               SOBCO
+Updates: 7475 (if approved)                               30 August 2024
 Intended status: Best Current Practice                                  
-Expires: 2 March 2025
+Expires: 3 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -27,7 +27,7 @@ Abstract
    Directors.
 
    This document obsoletes RFC2418, RFC3934, RFC7776, RFC8717, and
-   RFC9141.  It updates RFC7475.
+   RFC9141.  It updates RFC7475, and with [bis2026], obsoletes it.
 
 About This Document
 
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 March 2025.
+   This Internet-Draft will expire on 3 March 2025.
 
 Copyright Notice
 
@@ -113,7 +113,7 @@ Table of Contents
      13.2.  Informative References
    Appendix: Sample Working Group Charter
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -134,7 +134,7 @@ Table of Contents
    global Internet but use the Internet Standards.  Internet Standards
    are developed in the Internet Engineering Task Force (IETF).  This
    document defines guidelines and procedures for IETF working groups.
-   The Internet Standards Process of the IETF is defined in [RFC2026].
+   The Internet Standards Process of the IETF is defined in [bis2026].
    The organizations involved in the IETF Standards Process are
    described in [RFC9281] as are the roles of specific individuals.
 
@@ -174,7 +174,7 @@ Table of Contents
    Executive Director is an ex-officio participant of the IESG, as are
    the IAB Chair and a designated Internet Architecture Board (IAB)
    liaison.  The IESG approves IETF Standards and approves the
-   publication of other IETF documents.  (See [RFC2026].)
+   publication of other IETF documents.  (See [bis2026].)
 
    A small IETF Secretariat provides staff and administrative support
    for the operation of the IETF.
@@ -195,7 +195,7 @@ Table of Contents
 
 1.1.  IETF approach to standardization
 
-   Familiarity with The Internet Standards Process [RFC2026] is
+   Familiarity with The Internet Standards Process [bis2026] is
    essential for a complete understanding of the philosophy, procedures
    and guidelines described in this document.
 
@@ -420,7 +420,8 @@ Table of Contents
       3-6 months, so that progress can be gauged easily.  This milestone
       list is expected to be updated periodically (see Section 6).
 
-   An example of a WG charter is included as Appendix A.
+   An example of a WG charter is included as Appendix "Appendix: Sample
+   Working Group Charter".
 
 3.3.  Charter review & approval
 
@@ -650,20 +651,33 @@ Table of Contents
    attendance at IETF meetings, due to the time and expense required to
    attend.
 
-   As with face-to-face sessions occasionally one or more individuals
-   may engage in behavior on a mailing list which disrupts the WG's
-   progress.  In these cases the Chair should attempt to discourage the
-   behavior by communication directly with the offending individual
-   rather than on the open mailing list.  If the behavior persists then
-   the Chair must involve the Area Director in the issue.  As a last
-   resort and after explicit warnings, the Area Director, with the
-   approval of the IESG, may request that the mailing list maintainer
-   block the ability of the offending individual to post to the mailing
-   list.  (If the mailing list software permits this type of operation.)
-   Even if this is done, the individual must not be prevented from
-   receiving messages posted to the list.  Other methods of mailing list
-   control may be considered but must be approved by the AD(s) and the
-   IESG.
+   As in face-to-face sessions, occasionally one or more individuals may
+   engage in behavior on a mailing list that, in the opinion of the WG
+   chair, is disruptive to the WG process.  Unless the disruptive
+   behavior is severe enough that it must be stopped immediately, the WG
+   chair should attempt to discourage the disruptive behavior by
+   communicating directly with the offending individual.  If the
+   behavior persists, the WG chair should send at least one public
+   warning on the WG mailing list.  As a last resort and typically after
+   one or more explicit warnings and consultation with the responsible
+   Area Director, the WG chair may suspend the mailing list posting
+   privileges of the disruptive individual for a period of not more than
+   30 days.  Even while posting privileges are suspended, the individual
+   must not be prevented from receiving messages posted to the list.
+   Like all other WG chair decisions, any suspension of posting
+   privileges is subject to appeal, as described in [bis2026].
+
+   This mechanism is intended to permit a WG chair to suspend posting
+   privileges of a disruptive individual for a short period of time.
+   This mechanism does not permit WG chairs to suspend an individual's
+   posting privileges for a period longer than 30 days regardless of the
+   type or severity of the disruptive incident.  However, further
+   disruptive behavior by the same individual will be considered
+   separately and may result in further warnings or suspensions.  Other
+   methods of mailing list control, including longer suspensions, must
+   be carried out in accordance with other IETF-approved procedures.
+   See [RFC3683] for one set of procedures already defined and accepted
+   by the community.
 
 4.3.  Session management
 
@@ -752,7 +766,7 @@ Table of Contents
 
    Formal procedures for requesting a review of WG, Chair, Area Director
    or IESG actions and conducting appeals are documented in The Internet
-   Standards Process [RFC2026].
+   Standards Process [bis2026].
 
 5.  Working Group Termination
 
@@ -887,7 +901,7 @@ Table of Contents
 
    *  Document implementations
 
-   Under the procedures described in [RFC2026], the Chair is responsible
+   Under the procedures described in [bis2026], the Chair is responsible
    for documenting the specific implementations which qualify the
    specification for Draft or Internet Standard status along with
    documentation about testing of the interoperation of these
@@ -994,13 +1008,13 @@ Table of Contents
    Internet-Drafts directory is found in the file "1id-organization" in
    the Internet-Drafts directory at an Internet Repository site.  This
    file also contains the rules for naming Internet-Drafts.  (See
-   [RFC2026] for more information about Internet-Drafts.)
+   [bis2026] for more information about Internet-Drafts.)
 
 8.3.  Request For Comments (RFC)
 
    The work of an IETF working group often results in publication of one
    or more documents, as part of the Request For Comments (RFCs)
-   [RFC2026] series.  This series is the archival publication record for
+   [bis2026] series.  This series is the archival publication record for
    the Internet community.  A document can be written by an individual
    in a working group, by a group as a whole with a designated Editor,
    or by others not involved with the IETF.
@@ -1021,7 +1035,7 @@ Table of Contents
    Call.  The decision to issue a working group Last-Call is at the
    discretion of the WG Chair working with the Area Director.  A working
    group Last-Call serves the same purpose within a working group that
-   an IESG Last-Call does in the broader IETF community (see [RFC2026]).
+   an IESG Last-Call does in the broader IETF community (see [bis2026]).
 
 8.5.  Submission of documents
 
@@ -1057,7 +1071,7 @@ Table of Contents
 
    Prior to the IESG beginning their deliberations on standards-track
    documents, IETF Secretariat will issue a "Last-Call" to the IETF
-   mailing list (see [RFC2026]).  This Last Call will announce the
+   mailing list (see [bis2026]).  This Last Call will announce the
    intention of the IESG to consider the document, and it will solicit
    final comments from the IETF within a period of two weeks.  It is
    important to note that a Last-Call is intended as a brief, final
@@ -1074,7 +1088,7 @@ Table of Contents
 
    2.  The document is accepted as-is but not for the status requested.
        This fact will be announced by the IETF Secretariat to the IETF
-       mailing list and to the RFC Editor (see [RFC2026] for more
+       mailing list and to the RFC Editor (see [bis2026] for more
        details).
 
    3.  Changes regarding content are suggested to the author(s)/WG.
@@ -1101,7 +1115,7 @@ Table of Contents
    If any individual or group of individuals feels that the review
    treatment has been unfair, there is the opportunity to make a
    procedural complaint.  The mechanism for this type of complaints is
-   described in [RFC2026].
+   described in [bis2026].
 
 10.  Security Considerations
 
@@ -1126,7 +1140,10 @@ Table of Contents
    *  Draft 0: Translated the nroff source of RFC 2418 into markdown.
       Changed the intellectual proper notices the current ones.
 
-   *  Draft 1: Incorporate RFC 7475.  Fix internal references.
+   *  Draft 1: Incorporated RFC 3934.  Fixed a few minor typo's and cut/
+      paste errors.  Fixed updates/obsoletes headers and comments.
+
+   *  Draft 2: Incorporate RFC 7475.  Fix internal references.
 
 13.  References
 
@@ -1141,19 +1158,29 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
+   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
+              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
+              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
+
 13.2.  Informative References
+
+   [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
+              Process", Work in Progress, Internet-Draft, draft-rsalz-
+              2026bis-09, 28 August 2024,
+              <https://datatracker.ietf.org/doc/html/draft-rsalz-
+              2026bis-09>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
               <https://www.rfc-editor.org/rfc/rfc1796>.
 
-   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
-              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
-              <https://www.rfc-editor.org/rfc/rfc2026>.
-
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
+
+   [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
+              Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
+              March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
 
    [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
               DOI 10.17487/RFC7322, September 2014,
@@ -1165,10 +1192,6 @@ Table of Contents
               Nominating and Recall Committees", BCP 10, RFC 8713,
               DOI 10.17487/RFC8713, February 2020,
               <https://www.rfc-editor.org/rfc/rfc8713>.
-
-   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
-              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
-              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 Appendix: Sample Working Group Charter
 
@@ -1257,13 +1280,19 @@ Acknowledgments
 
    We gratefully acknowledge those who have contributed to the
    development of IETF RFC's and the processes that create both the
-   content and documents.
+   content and documents.  In particular, we thank the authors of all
+   the documents that updated [RFC2418].
 
-   We are grateful to the Secretariat for helping in getting all the
-   sources of [RFC2418] and the subsequent documents.
+   We also thank Sandy Ginoza of the Secretariat for sending all the
+   original RFC sources.
 
-Author's Address
+Authors' Addresses
 
    Rich Salz
    Akamai Technologies
    Email: rsalz@akamai.com
+
+
+   Scott Bradner
+   SOBCO
+   Email: sob@sobco.com
