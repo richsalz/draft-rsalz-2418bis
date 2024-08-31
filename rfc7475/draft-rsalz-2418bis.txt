@@ -6,8 +6,8 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934, 8717, 9141 (if approved)               S. Bradner
 Updates: 7475 (if approved)                                        SOBCO
-Intended status: Best Current Practice                    30 August 2024
-Expires: 3 March 2025
+Intended status: Best Current Practice                    31 August 2024
+Expires: 4 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -26,7 +26,8 @@ Abstract
    Directors.
 
    This document obsoletes RFC2418, RFC3934, RFC8717, and RFC9141.  It
-   updates RFC7475, and with [bis2026], obsoletes it.
+   also includes the changes from RFC7475, and with [bis2026], obsoletes
+   it.
 
 About This Document
 
@@ -53,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 March 2025.
+   This Internet-Draft will expire on 4 March 2025.
 
 Copyright Notice
 
