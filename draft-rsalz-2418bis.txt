@@ -4,11 +4,10 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 7776, 8717, 9141 (if                   S. Bradner
-           approved)                                               SOBCO
-Updates: 7475 (if approved)                               30 August 2024
-Intended status: Best Current Practice                                  
-Expires: 3 March 2025
+Obsoletes: 2418, 3934, 8717, 9141 (if approved)               S. Bradner
+Updates: 7475 (if approved)                                        SOBCO
+Intended status: Best Current Practice                  3 September 2024
+Expires: 7 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -26,8 +25,9 @@ Abstract
    participants, including WG Chairs, WG participants, and IETF Area
    Directors.
 
-   This document obsoletes RFC2418, RFC3934, RFC7776, RFC8717, and
-   RFC9141.  It updates RFC7475.
+   This document obsoletes RFC2418, RFC3934, RFC8717, and RFC9141.  It
+   also includes the changes from RFC7475, and with [bis2026], obsoletes
+   it.
 
 About This Document
 
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 March 2025.
+   This Internet-Draft will expire on 7 March 2025.
 
 Copyright Notice
 
@@ -134,7 +134,7 @@ Table of Contents
    global Internet but use the Internet Standards.  Internet Standards
    are developed in the Internet Engineering Task Force (IETF).  This
    document defines guidelines and procedures for IETF working groups.
-   The Internet Standards Process of the IETF is defined in [RFC2026].
+   The Internet Standards Process of the IETF is defined in [bis2026].
    The organizations involved in the IETF Standards Process are
    described in [RFC9281] as are the roles of specific individuals.
 
@@ -142,19 +142,21 @@ Table of Contents
    vendors, users, and researchers concerned with the Internet and the
    technology used on it.  The primary activities of the IETF are
    performed by committees known as working groups.  There are currently
-   more than 100 working groups.  (See the IETF web page for an up-to-
-   date list of IETF Working Groups - http://www.ietf.org.)  Working
-   groups tend to have a narrow focus and a lifetime bounded by the
-   completion of a specific set of tasks, although there are exceptions.
+   more than 100 working groups.  (See the Datatracker web page
+   (https://datatracker.ietf.org/wg/) for an up-to-date list of IETF
+   Working Groups.)  Working groups tend to have a narrow focus and a
+   lifetime bounded by the completion of a specific set of tasks,
+   although there are exceptions.
 
    For management purposes, the IETF working groups are collected
    together into areas, with each area having a separate focus.  For
    example, the security area deals with the development of security-
-   related technology.  Each IETF area is managed by one or two Area
-   Directors (ADs).  There are currently 8 areas in the IETF but the
-   number changes from time to time.  (See the IETF web page for a list
-   of the current areas, the Area Directors for each area, and a list of
-   which working groups are assigned to each area.)
+   related technology.  Each IETF area is managed by one or more Area
+   Directors (ADs).  There are currently seven areas in the IETF but the
+   number changes from time to time.  (See the IETF web page
+   (https://www.ietf.org/technologies/areas/) for a list of the current
+   areas, the Area Directors for each area, and a list of which working
+   groups are assigned to each area.)
 
    In many areas, the Area Directors have formed an advisory group or
    directorate.  These comprise experienced members of the IETF and the
@@ -172,7 +174,7 @@ Table of Contents
    Executive Director is an ex-officio participant of the IESG, as are
    the IAB Chair and a designated Internet Architecture Board (IAB)
    liaison.  The IESG approves IETF Standards and approves the
-   publication of other IETF documents.  (See [RFC2026].)
+   publication of other IETF documents.  (See [bis2026].)
 
    A small IETF Secretariat provides staff and administrative support
    for the operation of the IETF.
@@ -193,7 +195,7 @@ Table of Contents
 
 1.1.  IETF approach to standardization
 
-   Familiarity with The Internet Standards Process [RFC2026] is
+   Familiarity with The Internet Standards Process [bis2026] is
    essential for a complete understanding of the philosophy, procedures
    and guidelines described in this document.
 
@@ -429,7 +431,7 @@ Table of Contents
    good working group consensus about a bad design.  To facilitate
    working group efforts, an Area Director may assign a Consultant from
    among the ranks of senior IETF participants.  (Consultants are
-   described in section 6.)  At the discretion of the Area Director,
+   described in Section 7.6.)  At the discretion of the Area Director,
    approval of a new WG may be withheld in the absence of sufficient
    consultant resources.
 
@@ -663,7 +665,7 @@ Table of Contents
    30 days.  Even while posting privileges are suspended, the individual
    must not be prevented from receiving messages posted to the list.
    Like all other WG chair decisions, any suspension of posting
-   privileges is subject to appeal, as described in [RFC2026].
+   privileges is subject to appeal, as described in [bis2026].
 
    This mechanism is intended to permit a WG chair to suspend posting
    privileges of a disruptive individual for a short period of time.
@@ -764,7 +766,7 @@ Table of Contents
 
    Formal procedures for requesting a review of WG, Chair, Area Director
    or IESG actions and conducting appeals are documented in The Internet
-   Standards Process [RFC2026].
+   Standards Process [bis2026].
 
 5.  Working Group Termination
 
@@ -789,7 +791,7 @@ Table of Contents
    3.  Disband.
 
    If the working group disagrees with the Area Director's choice, it
-   may appeal to the IESG (see section 3.4).
+   may appeal to the IESG (see Section 4.4).
 
 6.  Rechartering a Working Group
 
@@ -864,12 +866,12 @@ Table of Contents
    *  Plan WG Sessions
 
    The Chair must plan and announce all WG sessions well in advance (see
-   section 3.1).
+   Section 4.1).
 
    *  Communicate results of sessions
 
    The Chair and/or Secretary must ensure that minutes of a session are
-   taken and that an attendance list is circulated (see section 3.1).
+   taken and that an attendance list is circulated (see Section 4.1).
 
    Immediately after a session, the WG Chair MUST provide the Area
    Director with a very short report (approximately one paragraph, via
@@ -887,7 +889,7 @@ Table of Contents
 
    Working groups produce documents and documents need authors.  The
    Chair must make sure that authors of WG documents incorporate changes
-   as agreed to by the WG (see section 6.3).
+   as agreed to by the WG (see Section 7.3).
 
    *  Document publication
 
@@ -899,7 +901,7 @@ Table of Contents
 
    *  Document implementations
 
-   Under the procedures described in [RFC2026], the Chair is responsible
+   Under the procedures described in [bis2026], the Chair is responsible
    for documenting the specific implementations which qualify the
    specification for Draft or Internet Standard status along with
    documentation about testing of the interoperation of these
@@ -1006,13 +1008,13 @@ Table of Contents
    Internet-Drafts directory is found in the file "1id-organization" in
    the Internet-Drafts directory at an Internet Repository site.  This
    file also contains the rules for naming Internet-Drafts.  (See
-   [RFC2026] for more information about Internet-Drafts.)
+   [bis2026] for more information about Internet-Drafts.)
 
 8.3.  Request For Comments (RFC)
 
    The work of an IETF working group often results in publication of one
    or more documents, as part of the Request For Comments (RFCs)
-   [RFC2026] series.  This series is the archival publication record for
+   [bis2026] series.  This series is the archival publication record for
    the Internet community.  A document can be written by an individual
    in a working group, by a group as a whole with a designated Editor,
    or by others not involved with the IETF.
@@ -1033,7 +1035,7 @@ Table of Contents
    Call.  The decision to issue a working group Last-Call is at the
    discretion of the WG Chair working with the Area Director.  A working
    group Last-Call serves the same purpose within a working group that
-   an IESG Last-Call does in the broader IETF community (see [RFC2026]).
+   an IESG Last-Call does in the broader IETF community (see [bis2026]).
 
 8.5.  Submission of documents
 
@@ -1043,7 +1045,7 @@ Table of Contents
    *  The version of the relevant document exactly as agreed to by the
       WG MUST be in the Internet-Drafts directory.
 
-   *  The relevant document MUST be formatted according to section 7.3.
+   *  The relevant document MUST be formatted according to Section 8.3.
 
    *  The WG Chair MUST send email to the relevant Area Director.  A
       copy of the request MUST be also sent to the IESG Secretariat.
@@ -1069,7 +1071,7 @@ Table of Contents
 
    Prior to the IESG beginning their deliberations on standards-track
    documents, IETF Secretariat will issue a "Last-Call" to the IETF
-   mailing list (see [RFC2026]).  This Last Call will announce the
+   mailing list (see [bis2026]).  This Last Call will announce the
    intention of the IESG to consider the document, and it will solicit
    final comments from the IETF within a period of two weeks.  It is
    important to note that a Last-Call is intended as a brief, final
@@ -1086,7 +1088,7 @@ Table of Contents
 
    2.  The document is accepted as-is but not for the status requested.
        This fact will be announced by the IETF Secretariat to the IETF
-       mailing list and to the RFC Editor (see [RFC2026] for more
+       mailing list and to the RFC Editor (see [bis2026] for more
        details).
 
    3.  Changes regarding content are suggested to the author(s)/WG.
@@ -1113,7 +1115,7 @@ Table of Contents
    If any individual or group of individuals feels that the review
    treatment has been unfair, there is the opportunity to make a
    procedural complaint.  The mechanism for this type of complaints is
-   described in [RFC2026].
+   described in [bis2026].
 
 10.  Security Considerations
 
@@ -1141,6 +1143,8 @@ Table of Contents
    *  Draft 1: Incorporated RFC 3934.  Fixed a few minor typo's and cut/
       paste errors.  Fixed updates/obsoletes headers and comments.
 
+   *  Draft 2: Incorporate RFC 7475.  Fix internal references.
+
 13.  References
 
 13.1.  Normative References
@@ -1160,13 +1164,15 @@ Table of Contents
 
 13.2.  Informative References
 
+   [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
+              Process", Work in Progress, Internet-Draft, draft-rsalz-
+              2026bis-09, 28 August 2024,
+              <https://datatracker.ietf.org/doc/html/draft-rsalz-
+              2026bis-09>.
+
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
               <https://www.rfc-editor.org/rfc/rfc1796>.
-
-   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
-              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
-              <https://www.rfc-editor.org/rfc/rfc2026>.
 
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,

@@ -17,8 +17,8 @@ relationship between IETF participants WG and the Internet Engineering
 Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors. 
        This document obsoletes
-RFC2418, RFC3934, RFC7776, RFC8717, and RFC9141.
-It updates RFC7475. 
+RFC2418, RFC3934, RFC8717, and RFC9141.
+It also includes the changes from RFC7475, and with  , obsoletes it. 
     " name="description">
 <meta content="xml2rfc 3.23.0" name="generator">
 <meta content="process" name="keyword">
@@ -1035,11 +1035,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">wg-guidelines</td>
-<td class="right">August 2024</td>
+<td class="right">September 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Salz &amp; Bradner</td>
-<td class="center">Expires 3 March 2025</td>
+<td class="center">Expires 7 March 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1052,18 +1052,18 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-rsalz-2418bis-latest</dd>
 <dt class="label-obsoletes">Obsoletes:</dt>
 <dd class="obsoletes">
-<a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a>, <a href="https://www.rfc-editor.org/rfc/rfc3934" class="eref">3934</a>, <a href="https://www.rfc-editor.org/rfc/rfc7776" class="eref">7776</a>, <a href="https://www.rfc-editor.org/rfc/rfc8717" class="eref">8717</a>, <a href="https://www.rfc-editor.org/rfc/rfc9141" class="eref">9141</a> (if approved)</dd>
+<a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a>, <a href="https://www.rfc-editor.org/rfc/rfc3934" class="eref">3934</a>, <a href="https://www.rfc-editor.org/rfc/rfc8717" class="eref">8717</a>, <a href="https://www.rfc-editor.org/rfc/rfc9141" class="eref">9141</a> (if approved)</dd>
 <dt class="label-updates">Updates:</dt>
 <dd class="updates">
 <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-08-30" class="published">30 August 2024</time>
+<time datetime="2024-09-03" class="published">3 September 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-03-03">3 March 2025</time></dd>
+<dd class="expires"><time datetime="2025-03-07">7 March 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1089,8 +1089,8 @@ relationship between IETF participants WG and the Internet Engineering
 Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 <p id="section-abstract-2">This document obsoletes
-RFC2418, RFC3934, RFC7776, RFC8717, and RFC9141.
-It updates RFC7475.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
+RFC2418, RFC3934, RFC8717, and RFC9141.
+It also includes the changes from RFC7475, and with <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>, obsoletes it.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1121,7 +1121,7 @@ It updates RFC7475.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 3 March 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 7 March 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1319,24 +1319,27 @@ isolated interconnected networks, which are not connected to the
 global Internet but use the Internet Standards. Internet Standards are
 developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
-The Internet Standards Process of the IETF is defined in <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>. The
+The Internet Standards Process of the IETF is defined in <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>. The
 organizations involved in the IETF Standards Process are described in
 <span>[<a href="#RFC9281" class="cite xref">RFC9281</a>]</span> as are the roles of specific individuals.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3">The IETF is a large, open community of network designers, operators,
 vendors, users, and researchers concerned with the Internet and the
 technology used on it. The primary activities of the IETF are
 performed by committees known as working groups. There are currently
-more than 100 working groups. (See the IETF web page for an
-up-to-date list of IETF Working Groups - http://www.ietf.org.)
+more than 100 working groups. (See the
+<a href="https://datatracker.ietf.org/wg/">Datatracker web page</a> for an
+up-to-date list of IETF Working Groups.)
 Working groups tend to have a narrow focus and a lifetime bounded by
 the completion of a specific set of tasks, although there are
 exceptions.<a href="#section-1-3" class="pilcrow">¶</a></p>
 <p id="section-1-4">For management purposes, the IETF working groups are collected
 together into areas, with each area having a separate focus.  For
 example, the security area deals with the development of
-security-related technology.  Each IETF area is managed by one or two
-Area Directors (ADs).  There are currently 8 areas in the IETF but the
-number changes from time to time.  (See the IETF web page for a list
+security-related technology.  Each IETF area is managed by one or more
+Area Directors (ADs).  There are currently seven areas in the IETF but the
+number changes from time to time.
+(See the <a href="https://www.ietf.org/technologies/areas/">IETF web page</a>
+for a list
 of the current areas, the Area Directors for each area, and a list of
 which working groups are assigned to each area.)<a href="#section-1-4" class="pilcrow">¶</a></p>
 <p id="section-1-5">In many areas, the Area Directors have formed an advisory group or
@@ -1353,7 +1356,7 @@ comprise the Internet Engineering Steering Group (IESG). The IETF
 Executive Director is an ex-officio participant of the IESG, as are
 the IAB Chair and a designated Internet Architecture Board (IAB)
 liaison.  The IESG approves IETF Standards and approves the
-publication of other IETF documents.  (See <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.)<a href="#section-1-7" class="pilcrow">¶</a></p>
+publication of other IETF documents.  (See <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>.)<a href="#section-1-7" class="pilcrow">¶</a></p>
 <p id="section-1-8">A small IETF Secretariat provides staff and administrative support for
 the operation of the IETF.<a href="#section-1-8" class="pilcrow">¶</a></p>
 <p id="section-1-9">There is no formal membership in the IETF.  Participation is open to
@@ -1373,7 +1376,7 @@ working group are also defined.<a href="#section-1-10" class="pilcrow">¶</a></p
         <h3 id="name-ietf-approach-to-standardiz">
 <a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-ietf-approach-to-standardiz" class="section-name selfRef">IETF approach to standardization</a>
         </h3>
-<p id="section-1.1-1">Familiarity with The Internet Standards Process <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span> is essential for a
+<p id="section-1.1-1">Familiarity with The Internet Standards Process <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span> is essential for a
 complete understanding of the philosophy, procedures and guidelines
 described in this document.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
 </section>
@@ -1671,7 +1674,7 @@ architecture or IETF processes.  This can, unfortunately, lead to good
 working group consensus about a bad design.  To facilitate working
 group efforts, an Area Director may assign a Consultant from among the
 ranks of senior IETF participants.  (Consultants are described in
-section 6.)  At the discretion of the Area Director, approval of a new
+<a href="#wg-consultant" class="auto internal xref">Section 7.6</a>.)  At the discretion of the Area Director, approval of a new
 WG may be withheld in the absence of sufficient consultant resources.<a href="#section-3.3-1" class="pilcrow">¶</a></p>
 <p id="section-3.3-2">Once the Area Director (and the Area Directorate, as the Area Director
 deems appropriate) has approved the working group charter, the charter
@@ -1791,7 +1794,7 @@ group activities, but a set of guidelines and practices has evolved
 over time that have proven successful. These are listed here, with
 actual choices typically determined by the working group participants
 and the Chair(s).<a href="#section-4-3" class="pilcrow">¶</a></p>
-<div id="session-planning">
+<div id="sess-planning">
 <section id="section-4.1">
         <h3 id="name-session-planning">
 <a href="#section-4.1" class="section-number selfRef">4.1. </a><a href="#name-session-planning" class="section-name selfRef">Session planning</a>
@@ -1932,7 +1935,7 @@ privileges of the disruptive individual for a period of not more than
 30 days.  Even while posting privileges are suspended, the individual
 must not be prevented from receiving messages posted to the
 list.  Like all other WG chair decisions, any suspension of posting
-privileges is subject to appeal, as described in <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.<a href="#section-4.2.2-3" class="pilcrow">¶</a></p>
+privileges is subject to appeal, as described in <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>.<a href="#section-4.2.2-3" class="pilcrow">¶</a></p>
 <p id="section-4.2.2-4">This mechanism is intended to permit a WG chair to suspend posting
 privileges of a disruptive individual for a short period of
 time.  This mechanism does not permit WG chairs to suspend an individual's
@@ -2035,7 +2038,7 @@ opened for discussion; or<a href="#section-4.3-8.6.1" class="pilcrow">¶</a></p>
 </dl>
 </section>
 </div>
-<div id="contention-and-appeals">
+<div id="appeals">
 <section id="section-4.4">
         <h3 id="name-contention-and-appeals">
 <a href="#section-4.4" class="section-number selfRef">4.4. </a><a href="#name-contention-and-appeals" class="section-name selfRef">Contention and appeals</a>
@@ -2048,7 +2051,7 @@ To achieve the goals of openness and fairness, such conflicts must be
 resolved by a process of open review and discussion.<a href="#section-4.4-1" class="pilcrow">¶</a></p>
 <p id="section-4.4-2">Formal procedures for requesting a review of WG, Chair, Area Director
 or IESG actions and conducting appeals are documented in The Internet
-Standards Process <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.<a href="#section-4.4-2" class="pilcrow">¶</a></p>
+Standards Process <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>.<a href="#section-4.4-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -2082,7 +2085,7 @@ can either:<a href="#section-5-2" class="pilcrow">¶</a></p>
 </li>
       </ol>
 <p id="section-5-4">If the working group disagrees with the Area Director's choice, it may
-appeal to the IESG (see section 3.4).<a href="#section-5-4" class="pilcrow">¶</a></p>
+appeal to the IESG (see <a href="#appeals" class="auto internal xref">Section 4.4</a>).<a href="#section-5-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="sec5">
@@ -2169,14 +2172,14 @@ Internet).<a href="#section-7.1-7" class="pilcrow">¶</a></p>
 </li>
         </ul>
 <p id="section-7.1-10">The Chair must plan and announce all WG sessions well in advance (see
-section 3.1).<a href="#section-7.1-10" class="pilcrow">¶</a></p>
+<a href="#sess-planning" class="auto internal xref">Section 4.1</a>).<a href="#section-7.1-10" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-7.1-11.1">
             <p id="section-7.1-11.1.1">Communicate results of sessions<a href="#section-7.1-11.1.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 <p id="section-7.1-12">The Chair and/or Secretary must ensure that minutes of a session are
-taken and that an attendance list is circulated (see section 3.1).<a href="#section-7.1-12" class="pilcrow">¶</a></p>
+taken and that an attendance list is circulated (see <a href="#sess-planning" class="auto internal xref">Section 4.1</a>).<a href="#section-7.1-12" class="pilcrow">¶</a></p>
 <p id="section-7.1-13">Immediately after a session, the WG Chair <span class="bcp14">MUST</span> provide the Area
 Director with a very short report (approximately one paragraph, via
 email) on the session.<a href="#section-7.1-13" class="pilcrow">¶</a></p>
@@ -2197,7 +2200,7 @@ workload.<a href="#section-7.1-15" class="pilcrow">¶</a></p>
         </ul>
 <p id="section-7.1-17">Working groups produce documents and documents need authors. The Chair
 must make sure that authors of WG documents incorporate changes as
-agreed to by the WG (see section 6.3).<a href="#section-7.1-17" class="pilcrow">¶</a></p>
+agreed to by the WG (see <a href="#doc-editor" class="auto internal xref">Section 7.3</a>).<a href="#section-7.1-17" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-7.1-18.1">
             <p id="section-7.1-18.1.1">Document publication<a href="#section-7.1-18.1.1" class="pilcrow">¶</a></p>
@@ -2213,7 +2216,7 @@ version of a document at the same time.<a href="#section-7.1-19" class="pilcrow"
             <p id="section-7.1-20.1.1">Document implementations<a href="#section-7.1-20.1.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
-<p id="section-7.1-21">Under the procedures described in <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>, the Chair is responsible for
+<p id="section-7.1-21">Under the procedures described in <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>, the Chair is responsible for
 documenting the specific implementations which qualify the
 specification for Draft or Internet Standard status along with
 documentation about testing of the interoperation of these
@@ -2231,7 +2234,7 @@ this role, the Secretary's job is to record WG decisions, rather than
 to perform basic specification.<a href="#section-7.2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="document-editor">
+<div id="doc-editor">
 <section id="section-7.3">
         <h3 id="name-document-editor">
 <a href="#section-7.3" class="section-number selfRef">7.3. </a><a href="#name-document-editor" class="section-name selfRef">Document Editor</a>
@@ -2277,7 +2280,7 @@ output of a design team is always subject to approval, rejection or
 modification by the WG as a whole.<a href="#section-7.5-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="working-group-consultant">
+<div id="wg-consultant">
 <section id="section-7.6">
         <h3 id="name-working-group-consultant">
 <a href="#section-7.6" class="section-number selfRef">7.6. </a><a href="#name-working-group-consultant" class="section-name selfRef">Working Group Consultant</a>
@@ -2357,17 +2360,17 @@ in the file "1id-guidelines.txt" in the Internet-Drafts directory at
 an Internet Repository site.  The organization of the Internet-Drafts
 directory is found in the file "1id-organization" in the
 Internet-Drafts directory at an Internet Repository site.  This file
-also contains the rules for naming Internet-Drafts.  (See <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span> for more
+also contains the rules for naming Internet-Drafts.  (See <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span> for more
 information about Internet-Drafts.)<a href="#section-8.2-5" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="request-for-comments-rfc">
+<div id="rfc-doc">
 <section id="section-8.3">
         <h3 id="name-request-for-comments-rfc">
 <a href="#section-8.3" class="section-number selfRef">8.3. </a><a href="#name-request-for-comments-rfc" class="section-name selfRef">Request For Comments (RFC)</a>
         </h3>
 <p id="section-8.3-1">The work of an IETF working group often results in publication of one
-or more documents, as part of the Request For Comments (RFCs) <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>
+or more documents, as part of the Request For Comments (RFCs) <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>
 series. This series is the archival publication record for the
 Internet community. A document can be written by an individual in a
 working group, by a group as a whole with a designated Editor, or by
@@ -2392,7 +2395,7 @@ is done by the WG Chair issuing a working group Last-Call.  The
 decision to issue a working group Last-Call is at the discretion of
 the WG Chair working with the Area Director.  A working group
 Last-Call serves the same purpose within a working group that an IESG
-Last-Call does in the broader IETF community (see <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>).<a href="#section-8.4-1" class="pilcrow">¶</a></p>
+Last-Call does in the broader IETF community (see <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>).<a href="#section-8.4-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="submission-of-documents">
@@ -2408,7 +2411,7 @@ the WG for the advancement of a document the following must be done:<a href="#se
 <span class="bcp14">MUST</span> be in the Internet-Drafts directory.<a href="#section-8.5-2.1.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-8.5-2.2">
-            <p id="section-8.5-2.2.1">The relevant document <span class="bcp14">MUST</span> be formatted according to section 7.3.<a href="#section-8.5-2.2.1" class="pilcrow">¶</a></p>
+            <p id="section-8.5-2.2.1">The relevant document <span class="bcp14">MUST</span> be formatted according to <a href="#rfc-doc" class="auto internal xref">Section 8.3</a>.<a href="#section-8.5-2.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-8.5-2.3">
             <p id="section-8.5-2.3.1">The WG Chair <span class="bcp14">MUST</span> send email to the relevant Area Director.  A copy
@@ -2440,7 +2443,7 @@ extensive review is undertaken in the case of standards-track
 documents.<a href="#section-9-1" class="pilcrow">¶</a></p>
 <p id="section-9-2">Prior to the IESG beginning their deliberations on standards-track
 documents, IETF Secretariat will issue a "Last-Call" to the IETF
-mailing list (see <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>). This Last Call will announce the intention of
+mailing list (see <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>). This Last Call will announce the intention of
 the IESG to consider the document, and it will solicit final comments
 from the IETF within a period of two weeks.  It is important to note
 that a Last-Call is intended as a brief, final check with the Internet
@@ -2458,7 +2461,7 @@ mailing list and to the RFC Editor.<a href="#section-9-4.1.1" class="pilcrow">¶
         <li id="section-9-4.2">
           <p id="section-9-4.2.1">The document is accepted as-is but not for the status requested.
 This fact will be announced by the IETF Secretariat to the IETF
-mailing list and to the RFC Editor (see <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span> for more details).<a href="#section-9-4.2.1" class="pilcrow">¶</a></p>
+mailing list and to the RFC Editor (see <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span> for more details).<a href="#section-9-4.2.1" class="pilcrow">¶</a></p>
 </li>
         <li id="section-9-4.3">
           <p id="section-9-4.3.1">Changes regarding content are suggested to the author(s)/WG.
@@ -2486,7 +2489,7 @@ flawed in some way.<a href="#section-9-4.5.1" class="pilcrow">¶</a></p>
 <p id="section-9-5">If any individual or group of individuals feels that the review
 treatment has been unfair, there is the opportunity to make a
 procedural complaint. The mechanism for this type of complaints is
-described in <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.<a href="#section-9-5" class="pilcrow">¶</a></p>
+described in <span>[<a href="#bis2026" class="cite xref">bis2026</a>]</span>.<a href="#section-9-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
@@ -2528,6 +2531,10 @@ the intellectual proper notices the current ones.<a href="#section-12-1.1.1" cla
           <p id="section-12-1.2.1">Draft 1: Incorporated RFC 3934. Fixed a few minor typo's and cut/paste
 errors. Fixed updates/obsoletes headers and comments.<a href="#section-12-1.2.1" class="pilcrow">¶</a></p>
 </li>
+        <li class="normal" id="section-12-1.3">
+          <p id="section-12-1.3.1">Draft 2: Incorporate RFC 7475.
+Fix internal references.<a href="#section-12-1.3.1" class="pilcrow">¶</a></p>
+</li>
       </ul>
 </section>
 </div>
@@ -2563,13 +2570,13 @@ errors. Fixed updates/obsoletes headers and comments.<a href="#section-12-1.2.1"
 <a href="#section-13.2" class="section-number selfRef">13.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
+<dt id="bis2026">[bis2026]</dt>
+        <dd>
+<span class="refAuthor">Salz, R.</span> and <span class="refAuthor">S. O. Bradner</span>, <span class="refTitle">"The Internet Standards Process"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-rsalz-2026bis-09</span>, <time datetime="2024-08-28" class="refDate">28 August 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis-09">https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis-09</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC1796">[RFC1796]</dt>
         <dd>
 <span class="refAuthor">Huitema, C.</span>, <span class="refAuthor">Postel, J.</span>, and <span class="refAuthor">S. Crocker</span>, <span class="refTitle">"Not All RFCs are Standards"</span>, <span class="seriesInfo">RFC 1796</span>, <span class="seriesInfo">DOI 10.17487/RFC1796</span>, <time datetime="1995-04" class="refDate">April 1995</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc1796">https://www.rfc-editor.org/rfc/rfc1796</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFC2026">[RFC2026]</dt>
-        <dd>
-<span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"The Internet Standards Process -- Revision 3"</span>, <span class="seriesInfo">BCP 9</span>, <span class="seriesInfo">RFC 2026</span>, <span class="seriesInfo">DOI 10.17487/RFC2026</span>, <time datetime="1996-10" class="refDate">October 1996</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2026">https://www.rfc-editor.org/rfc/rfc2026</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="RFC2418">[RFC2418]</dt>
         <dd>
