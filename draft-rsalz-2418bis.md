@@ -4,14 +4,13 @@ abbrev: "wg-guidelines"
 docname: draft-rsalz-2418bis-latest
 submissiontype: IETF
 category: bcp
-bcp: 25
 ipr: trust200902
 area: General
 workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2418, 3934, 7776, 8717, 9141
+obsoletes: 2418, 3934, 8717, 9141
 updates: 7475
 pi: [toc, sortrefs, symrefs]
 
@@ -33,6 +32,7 @@ venue:
 normative:
 
 informative:
+  bis2026: I-D.draft-rsalz-2026bis
 
 --- abstract
 
@@ -46,9 +46,8 @@ Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors.
 
 This document obsoletes
-RFC2418, RFC3934, RFC7776, RFC8717, and RFC9141.
-It updates RFC7475.
-
+RFC2418, RFC3934, RFC8717, and RFC9141.
+It also includes the changes from RFC7475, and with {{bis2026}}, obsoletes it.
 
 --- middle
 
@@ -73,7 +72,7 @@ isolated interconnected networks, which are not connected to the
 global Internet but use the Internet Standards. Internet Standards are
 developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
-The Internet Standards Process of the IETF is defined in {{?RFC2026}}. The
+The Internet Standards Process of the IETF is defined in {{?bis2026}}. The
 organizations involved in the IETF Standards Process are described in
 {{!RFC9281}} as are the roles of specific individuals.
 
@@ -81,8 +80,9 @@ The IETF is a large, open community of network designers, operators,
 vendors, users, and researchers concerned with the Internet and the
 technology used on it. The primary activities of the IETF are
 performed by committees known as working groups. There are currently
-more than 100 working groups. (See the IETF web page for an
-up-to-date list of IETF Working Groups - http://www.ietf.org.)
+more than 100 working groups. (See the
+[Datatracker web page](https://datatracker.ietf.org/wg/) for an
+up-to-date list of IETF Working Groups.)
 Working groups tend to have a narrow focus and a lifetime bounded by
 the completion of a specific set of tasks, although there are
 exceptions.
@@ -90,9 +90,11 @@ exceptions.
 For management purposes, the IETF working groups are collected
 together into areas, with each area having a separate focus.  For
 example, the security area deals with the development of
-security-related technology.  Each IETF area is managed by one or two
-Area Directors (ADs).  There are currently 8 areas in the IETF but the
-number changes from time to time.  (See the IETF web page for a list
+security-related technology.  Each IETF area is managed by one or more
+Area Directors (ADs).  There are currently seven areas in the IETF but the
+number changes from time to time.
+(See the [IETF web page](https://www.ietf.org/technologies/areas/)
+for a list
 of the current areas, the Area Directors for each area, and a list of
 which working groups are assigned to each area.)
 
@@ -112,7 +114,7 @@ comprise the Internet Engineering Steering Group (IESG). The IETF
 Executive Director is an ex-officio participant of the IESG, as are
 the IAB Chair and a designated Internet Architecture Board (IAB)
 liaison.  The IESG approves IETF Standards and approves the
-publication of other IETF documents.  (See {{RFC2026}}.)
+publication of other IETF documents.  (See {{bis2026}}.)
 
 A small IETF Secretariat provides staff and administrative support for
 the operation of the IETF.
@@ -133,7 +135,7 @@ working group are also defined.
 
 ## IETF approach to standardization
 
-Familiarity with The Internet Standards Process {{RFC2026}} is essential for a
+Familiarity with The Internet Standards Process {{bis2026}} is essential for a
 complete understanding of the philosophy, procedures and guidelines
 described in this document.
 
@@ -360,7 +362,7 @@ architecture or IETF processes.  This can, unfortunately, lead to good
 working group consensus about a bad design.  To facilitate working
 group efforts, an Area Director may assign a Consultant from among the
 ranks of senior IETF participants.  (Consultants are described in
-section 6.)  At the discretion of the Area Director, approval of a new
+{{wg-consultant}}.)  At the discretion of the Area Director, approval of a new
 WG may be withheld in the absence of sufficient consultant resources.
 
 Once the Area Director (and the Area Directorate, as the Area Director
@@ -468,7 +470,7 @@ over time that have proven successful. These are listed here, with
 actual choices typically determined by the working group participants
 and the Chair(s).
 
-## Session planning
+## Session planning {#sess-planning}
 
 For coordinated, structured WG interactions, the Chair(s) MUST publish
 a draft agenda well in advance of the actual session. The agenda
@@ -590,7 +592,7 @@ privileges of the disruptive individual for a period of not more than
 30 days.  Even while posting privileges are suspended, the individual
 must not be prevented from receiving messages posted to the
 list.  Like all other WG chair decisions, any suspension of posting
-privileges is subject to appeal, as described in {{RFC2026}}.
+privileges is subject to appeal, as described in {{bis2026}}.
 
 This mechanism is intended to permit a WG chair to suspend posting
 privileges of a disruptive individual for a short period of
@@ -683,7 +685,7 @@ opened for discussion; or
 Scope
 : The input is outside of the scope of the working group charter.
 
-## Contention and appeals
+## Contention and appeals {#appeals}
 
 Disputes are possible at various stages during the IETF process. As
 much as possible the process is designed so that compromises can be
@@ -694,7 +696,7 @@ resolved by a process of open review and discussion.
 
 Formal procedures for requesting a review of WG, Chair, Area Director
 or IESG actions and conducting appeals are documented in The Internet
-Standards Process {{RFC2026}}.
+Standards Process {{bis2026}}.
 
 # Working Group Termination {#sec4}
 
@@ -719,7 +721,7 @@ can either:
 3. Disband.
 
 If the working group disagrees with the Area Director's choice, it may
-appeal to the IESG (see section 3.4).
+appeal to the IESG (see {{appeals}}).
 
 # Rechartering a Working Group {#sec5}
 
@@ -794,12 +796,12 @@ Organize, prepare and chair face-to-face and on-line formal sessions.
 - Plan WG Sessions
 
 The Chair must plan and announce all WG sessions well in advance (see
-section 3.1).
+{{sess-planning}}).
 
 - Communicate results of sessions
 
 The Chair and/or Secretary must ensure that minutes of a session are
-taken and that an attendance list is circulated (see section 3.1).
+taken and that an attendance list is circulated (see {{sess-planning}}).
 
 Immediately after a session, the WG Chair MUST provide the Area
 Director with a very short report (approximately one paragraph, via
@@ -817,7 +819,7 @@ workload.
 
 Working groups produce documents and documents need authors. The Chair
 must make sure that authors of WG documents incorporate changes as
-agreed to by the WG (see section 6.3).
+agreed to by the WG (see {{doc-editor}}).
 
 - Document publication
 
@@ -829,7 +831,7 @@ version of a document at the same time.
 
 - Document implementations
 
-Under the procedures described in {{RFC2026}}, the Chair is responsible for
+Under the procedures described in {{bis2026}}, the Chair is responsible for
 documenting the specific implementations which qualify the
 specification for Draft or Internet Standard status along with
 documentation about testing of the interoperation of these
@@ -842,7 +844,7 @@ by a specifically-designated participant or set of participants.  In
 this role, the Secretary's job is to record WG decisions, rather than
 to perform basic specification.
 
-## Document Editor
+## Document Editor {#doc-editor}
 
 Most IETF working groups focus their efforts on a document, or set of
 documents, that capture the results of the group's work.  A working
@@ -877,7 +879,7 @@ the WG chair or AD appoints to attack a controversial problem.  The
 output of a design team is always subject to approval, rejection or
 modification by the WG as a whole.
 
-## Working Group Consultant
+## Working Group Consultant {#wg-consultant}
 
 At the discretion of the Area Director, a Consultant may be assigned
 to a working group.  Consultants have specific technical background
@@ -935,13 +937,13 @@ in the file "1id-guidelines.txt" in the Internet-Drafts directory at
 an Internet Repository site.  The organization of the Internet-Drafts
 directory is found in the file "1id-organization" in the
 Internet-Drafts directory at an Internet Repository site.  This file
-also contains the rules for naming Internet-Drafts.  (See {{RFC2026}} for more
+also contains the rules for naming Internet-Drafts.  (See {{bis2026}} for more
 information about Internet-Drafts.)
 
-## Request For Comments (RFC)
+## Request For Comments (RFC) {#rfc-doc}
 
 The work of an IETF working group often results in publication of one
-or more documents, as part of the Request For Comments (RFCs) {{RFC2026}}
+or more documents, as part of the Request For Comments (RFCs) {{bis2026}}
 series. This series is the archival publication record for the
 Internet community. A document can be written by an individual in a
 working group, by a group as a whole with a designated Editor, or by
@@ -963,7 +965,7 @@ is done by the WG Chair issuing a working group Last-Call.  The
 decision to issue a working group Last-Call is at the discretion of
 the WG Chair working with the Area Director.  A working group
 Last-Call serves the same purpose within a working group that an IESG
-Last-Call does in the broader IETF community (see {{RFC2026}}).
+Last-Call does in the broader IETF community (see {{bis2026}}).
 
 ## Submission of documents
 
@@ -973,7 +975,7 @@ the WG for the advancement of a document the following must be done:
 - The version of the relevant document exactly as agreed to by the WG
 MUST be in the Internet-Drafts directory.
 
-- The relevant document MUST be formatted according to section 7.3.
+- The relevant document MUST be formatted according to {{rfc-doc}}.
 
 - The WG Chair MUST send email to the relevant Area Director.  A copy
 of the request MUST be also sent to the IESG Secretariat.  The mail
@@ -998,7 +1000,7 @@ documents.
 
 Prior to the IESG beginning their deliberations on standards-track
 documents, IETF Secretariat will issue a "Last-Call" to the IETF
-mailing list (see {{RFC2026}}). This Last Call will announce the intention of
+mailing list (see {{bis2026}}). This Last Call will announce the intention of
 the IESG to consider the document, and it will solicit final comments
 from the IETF within a period of two weeks.  It is important to note
 that a Last-Call is intended as a brief, final check with the Internet
@@ -1015,7 +1017,7 @@ mailing list and to the RFC Editor.
 
 2. The document is accepted as-is but not for the status requested.
 This fact will be announced by the IETF Secretariat to the IETF
-mailing list and to the RFC Editor (see {{RFC2026}} for more details).
+mailing list and to the RFC Editor (see {{bis2026}} for more details).
 
 3. Changes regarding content are suggested to the author(s)/WG.
 Suggestions from the IESG must be clear and direct, so as to
@@ -1039,7 +1041,7 @@ flawed in some way.
 If any individual or group of individuals feels that the review
 treatment has been unfair, there is the opportunity to make a
 procedural complaint. The mechanism for this type of complaints is
-described in {{RFC2026}}.
+described in {{bis2026}}.
 
 # Security Considerations
 
@@ -1066,6 +1068,9 @@ the intellectual proper notices the current ones.
 
 - Draft 1: Incorporated RFC 3934. Fixed a few minor typo's and cut/paste
 errors. Fixed updates/obsoletes headers and comments.
+
+- Draft 2: Incorporate RFC 7475.
+Fix internal references.
 
 --- back
 
