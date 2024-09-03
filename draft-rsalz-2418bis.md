@@ -915,23 +915,18 @@ have no official standards status whatsoever. They may, eventually,
 turn into a standards-track document or they may sink from sight.
 Internet-Drafts are submitted to: internet-drafts@ietf.org
 
-The format of an Internet-Draft must be the same as for an RFC {{RFC9281}}.
-Further, an I-D must contain:
-
-- Beginning, standard, boilerplate text which is provided by the
-Secretariat on their web site;
+The format of an Internet-Draft is mostly the same as for an RFC
+{{?RFC7322, Section 4}}; details can also be found at
+<https://authors.ietf.org>. In addition, an I-D must contain:
 
 - The I-D filename; and
 
 - The expiration date for the I-D.
 
-Complete specification of requirements for an Internet-Draft are found
-in the file "1id-guidelines.txt" in the Internet-Drafts directory at
-an Internet Repository site.  The organization of the Internet-Drafts
-directory is found in the file "1id-organization" in the
-Internet-Drafts directory at an Internet Repository site.  This file
-also contains the rules for naming Internet-Drafts.  (See {{bis2026}} for more
-information about Internet-Drafts.)
+- Standard boilerplate which can be found in Section 6 of the
+[Trust Legal Provisions](https://trustee.ietf.org/documentation/trust-legal-provisions)
+
+The tooling available to authors automates most the above.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
