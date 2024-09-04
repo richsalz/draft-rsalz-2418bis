@@ -10,8 +10,8 @@ workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2418, 3934, 8717, 9141
-updates: 7475
+obsoletes: 2418, 3934, 9141
+updates: 7475, 8717
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -46,8 +46,9 @@ Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors.
 
 This document obsoletes
-RFC2418, RFC3934, RFC8717, and RFC9141.
+RFC2418, RFC3934, and RFC9141.
 It also includes the changes from RFC7475, and with {{bis2026}}, obsoletes it.
+It also incorporates the changes from RFC8717.
 
 --- middle
 
@@ -111,12 +112,14 @@ is described in {{?RFC8713}}.
 
 The area directors sitting as a body, along with the IETF Chair,
 comprise the Internet Engineering Steering Group (IESG). The IETF
-Executive Director is an ex-officio participant of the IESG, as are
-the IAB Chair and a designated Internet Architecture Board (IAB)
-liaison.  The IESG approves IETF Standards and approves the
+Managing Director, IETF Secretariat, and the IAB Chair
+are ex-officio members of the IESG.
+There are also liaisons from IANA, the RFC Production Center,
+the Secretariat, and another from the IAB.
+The IESG approves IETF Standards and approves the
 publication of other IETF documents.  (See {{bis2026}}.)
 
-A small IETF Secretariat provides staff and administrative support for
+The IETF Secretariat provides staff and administrative support for
 the operation of the IETF.
 
 There is no formal membership in the IETF.  Participation is open to
@@ -1071,6 +1074,8 @@ errors. Fixed updates/obsoletes headers and comments.
 
 - Draft 2: Incorporate RFC 7475.
 Fix internal references.
+
+- Draft 3: Incorporate RFC 8717.
 
 --- back
 
