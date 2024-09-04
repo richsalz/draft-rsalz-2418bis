@@ -4,10 +4,10 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 8717, 9141 (if approved)               S. Bradner
-Updates: 7475 (if approved)                                        SOBCO
-Intended status: Best Current Practice                  3 September 2024
-Expires: 7 March 2025
+Obsoletes: 2418, 3934, 9141 (if approved)                     S. Bradner
+Updates: 7475, 8717 (if approved)                                  SOBCO
+Intended status: Best Current Practice                  4 September 2024
+Expires: 8 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -25,9 +25,9 @@ Abstract
    participants, including WG Chairs, WG participants, and IETF Area
    Directors.
 
-   This document obsoletes RFC2418, RFC3934, RFC8717, and RFC9141.  It
-   also includes the changes from RFC7475, and with [bis2026], obsoletes
-   it.
+   This document obsoletes RFC2418, RFC3934, and RFC9141.  It also
+   includes the changes from RFC7475, and with [bis2026], obsoletes it.
+   It also incorporates the changes from RFC8717.
 
 About This Document
 
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 March 2025.
+   This Internet-Draft will expire on 8 March 2025.
 
 Copyright Notice
 
@@ -171,13 +171,14 @@ Table of Contents
 
    The area directors sitting as a body, along with the IETF Chair,
    comprise the Internet Engineering Steering Group (IESG).  The IETF
-   Executive Director is an ex-officio participant of the IESG, as are
-   the IAB Chair and a designated Internet Architecture Board (IAB)
-   liaison.  The IESG approves IETF Standards and approves the
-   publication of other IETF documents.  (See [bis2026].)
+   Managing Director, IETF Secretariat, and the IAB Chair are ex-officio
+   members of the IESG.  There are also liaisons from IANA, the RFC
+   Production Center, the Secretariat, and another from the IAB.  The
+   IESG approves IETF Standards and approves the publication of other
+   IETF documents.  (See [bis2026].)
 
-   A small IETF Secretariat provides staff and administrative support
-   for the operation of the IETF.
+   The IETF Secretariat provides staff and administrative support for
+   the operation of the IETF.
 
    There is no formal membership in the IETF.  Participation is open to
    all.  This participation may be by on-line contribution, attendance
@@ -1144,6 +1145,8 @@ Table of Contents
       paste errors.  Fixed updates/obsoletes headers and comments.
 
    *  Draft 2: Incorporate RFC 7475.  Fix internal references.
+
+   *  Draft 3: Incorporate RFC 8717.
 
 13.  References
 
