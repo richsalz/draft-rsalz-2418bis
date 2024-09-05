@@ -10,8 +10,8 @@ workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2418, 3934, 9141
-updates: 7475, 8717
+obsoletes: 2418, 3934
+updates: 7475, 8717, 9141
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -46,9 +46,9 @@ Steering Group (IESG) and the basic duties of IETF participants,
 including WG Chairs, WG participants, and IETF Area Directors.
 
 This document obsoletes
-RFC2418, RFC3934, and RFC9141.
+RFC2418, and RFC3934.
 It also includes the changes from RFC7475, and with {{bis2026}}, obsoletes it.
-It also incorporates the changes from RFC8717.
+It also incorporates the changes from RFC8717 and RFC9141.
 
 --- middle
 
@@ -305,18 +305,8 @@ procedures to follow when subscribing,
 procedures, if any, and
 
 3. The location of the mailing list archive. A message archive MUST be
-maintained in a public place which can be accessed via FTP or via the
+maintained in a public place which can be accessed via the
 web.
-
-As a service to the community, the IETF Secretariat operates a mailing
-list archive for working group mailing lists. In order to take
-advantage of this service, working group mailing lists MUST include
-the address "wg_acronym-archive@lists.ietf.org" (where "wg_acronym" is
-the working group acronym) in the mailing list in order that a copy of
-all mailing list messages be recorded in the Secretariat's archive.
-Those archives are located at ftp://ftp.ietf.org/ietf-mail-archive.
-For robustness, WGs SHOULD maintain an additional archive separate
-from that maintained by the Secretariat.
 
 Description of working group
 : The focus and intent of the group shall be set forth briefly. By
@@ -925,23 +915,18 @@ have no official standards status whatsoever. They may, eventually,
 turn into a standards-track document or they may sink from sight.
 Internet-Drafts are submitted to: internet-drafts@ietf.org
 
-The format of an Internet-Draft must be the same as for an RFC {{RFC9281}}.
-Further, an I-D must contain:
-
-- Beginning, standard, boilerplate text which is provided by the
-Secretariat on their web site and in the ftp directory;
+The format of an Internet-Draft is mostly the same as for an RFC
+{{?RFC7322, Section 4}}; details can also be found at
+<https://authors.ietf.org>. In addition, an I-D must contain:
 
 - The I-D filename; and
 
 - The expiration date for the I-D.
 
-Complete specification of requirements for an Internet-Draft are found
-in the file "1id-guidelines.txt" in the Internet-Drafts directory at
-an Internet Repository site.  The organization of the Internet-Drafts
-directory is found in the file "1id-organization" in the
-Internet-Drafts directory at an Internet Repository site.  This file
-also contains the rules for naming Internet-Drafts.  (See {{bis2026}} for more
-information about Internet-Drafts.)
+- Standard boilerplate which can be found in Section 6 of the
+[Trust Legal Provisions](https://trustee.ietf.org/documentation/trust-legal-provisions)
+
+The tooling available to authors automates most the above.
 
 ## Request For Comments (RFC) {#rfc-doc}
 
@@ -1077,6 +1062,8 @@ Fix internal references.
 
 - Draft 3: Incorporate RFC 8717.
 
+- Draft 4: Incoroporate RFC 9141.
+
 --- back
 
 # Appendix:  Sample Working Group Charter {#sample-charter}
@@ -1174,4 +1161,4 @@ particular, we thank the authors of all the documents that updated
 {{?RFC2418}}.
 
 We also thank Sandy Ginoza of the Secretariat for sending all the
-original RFC sources.
+sources of {{?RFC2418}} and the subsequent documents.
