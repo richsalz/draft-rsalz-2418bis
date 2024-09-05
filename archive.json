@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-09-03T01:16:53.870677+00:00",
+  "timestamp": "2024-09-05T01:18:11.845299+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -78,9 +78,41 @@
       "labels": [],
       "body": "The section titled \"Internet-Drafts\" has a bunch of outdated information\r\n\r\n- Says to submit via email\r\n- Says secretariat maintains boilerplate\r\n- refers to 1id-organization.txt file\r\n- refers to 1id-guidelines.txt file\r\n",
       "createdAt": "2024-08-30T17:07:23Z",
-      "updatedAt": "2024-08-30T17:07:23Z",
+      "updatedAt": "2024-09-04T14:27:30Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "Several of the items have been fixed (in the to-be-published darft-04 which has updates from the RPC editor) but not all.",
+          "createdAt": "2024-09-04T14:27:29Z",
+          "updatedAt": "2024-09-04T14:27:29Z"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOMaVM686VWSHQ",
+      "title": "Everyone still says \"Executive Director\"",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/8",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "RFC 8717 https://www.rfc-editor.org/rfc/rfc8717#name-where-appropriate-replaceme\r\n\r\nBut everywhere (not in this doc!) it still says Executive Director\r\n",
+      "createdAt": "2024-09-04T15:10:16Z",
+      "updatedAt": "2024-09-04T15:19:53Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "See errata I filed against 8717: https://www.rfc-editor.org/errata/eid8093\r\n",
+          "createdAt": "2024-09-04T15:19:52Z",
+          "updatedAt": "2024-09-04T15:19:52Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -143,20 +175,76 @@
       "id": "PR_kwDOMaVM6855_JFf",
       "title": "Incorporate RFC7475",
       "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/4",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Add acknowledgements and change log\r\nAlso fix the internal links to markdown refs.\r\nRename \"RFC2026\" to \"bis2026\" and point to the draft.",
       "createdAt": "2024-08-30T14:45:53Z",
-      "updatedAt": "2024-08-31T15:23:58Z",
+      "updatedAt": "2024-09-03T19:53:30Z",
       "baseRepository": "richsalz/draft-rsalz-2418bis",
       "baseRefName": "main",
       "baseRefOid": "7c54872911f728a6ff926b265de3581f825a6776",
       "headRepository": "richsalz/draft-rsalz-2418bis",
       "headRefName": "rfc7475",
       "headRefOid": "86a4ce89528785de9691d96ff939978cd34fab94",
+      "closedAt": "2024-09-03T19:53:27Z",
+      "mergedAt": "2024-09-03T19:53:27Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "c50bd87ea3710d2d1809d5c312b31dc6f6a87eaa"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOMaVM6856TuHC",
+      "title": "Incorporate RFC8717",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/6",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-09-03T20:14:45Z",
+      "updatedAt": "2024-09-04T14:25:17Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "c50bd87ea3710d2d1809d5c312b31dc6f6a87eaa",
+      "headRepository": "richsalz/draft-rsalz-2418bis",
+      "headRefName": "rfc8717",
+      "headRefOid": "70e905a43f87a4ecf79c8ffecc11b0d9c445b46d",
+      "closedAt": "2024-09-04T14:25:14Z",
+      "mergedAt": "2024-09-04T14:25:14Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "272f423cf52d96aedf8d092cf0e70ed6c2c87e57"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOMaVM6856aALS",
+      "title": "Rfc9141",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/7",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This goes a bit further than just incorporating text because it adds some updates from the RFC Editor and Secretariat.",
+      "createdAt": "2024-09-04T14:31:58Z",
+      "updatedAt": "2024-09-04T14:31:58Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "272f423cf52d96aedf8d092cf0e70ed6c2c87e57",
+      "headRepository": "richsalz/draft-rsalz-2418bis",
+      "headRefName": "rfc9141",
+      "headRefOid": "2fdcf598d519ffcefe9760dbf1e67ace0e7322eb",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
