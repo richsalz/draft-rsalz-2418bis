@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-09-05T01:18:11.845299+00:00",
+  "timestamp": "2024-09-08T01:23:54.674486+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -231,24 +231,26 @@
       "id": "PR_kwDOMaVM6856aALS",
       "title": "Rfc9141",
       "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/7",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "This goes a bit further than just incorporating text because it adds some updates from the RFC Editor and Secretariat.",
       "createdAt": "2024-09-04T14:31:58Z",
-      "updatedAt": "2024-09-04T14:31:58Z",
+      "updatedAt": "2024-09-05T14:39:30Z",
       "baseRepository": "richsalz/draft-rsalz-2418bis",
       "baseRefName": "main",
       "baseRefOid": "272f423cf52d96aedf8d092cf0e70ed6c2c87e57",
       "headRepository": "richsalz/draft-rsalz-2418bis",
       "headRefName": "rfc9141",
       "headRefOid": "2fdcf598d519ffcefe9760dbf1e67ace0e7322eb",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-09-05T14:39:26Z",
+      "mergedAt": "2024-09-05T14:39:26Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "81630568ce20a00a900b1f6bba6a25b7b946afc8"
+      },
       "comments": [],
       "reviews": []
     }
