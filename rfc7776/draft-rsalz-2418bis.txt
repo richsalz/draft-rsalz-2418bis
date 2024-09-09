@@ -4,10 +4,10 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2418, 3934, 8717, 9141 (if approved)               S. Bradner
-Updates: 7475 (if approved)                                        SOBCO
-Intended status: Best Current Practice                  3 September 2024
-Expires: 7 March 2025
+Obsoletes: 2418, 3934 (if approved)                           S. Bradner
+Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
+Intended status: Best Current Practice                  9 September 2024
+Expires: 13 March 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -25,9 +25,10 @@ Abstract
    participants, including WG Chairs, WG participants, and IETF Area
    Directors.
 
-   This document obsoletes RFC2418, RFC3934, RFC8717, and RFC9141.  It
-   also includes the changes from RFC7475, and with [bis2026], obsoletes
-   it.
+   This document obsoletes RFC2418, and RFC3934.  It also includes the
+   changes from RFC7475, and with [bis2026], obsoletes it.  It also
+   includes a summary of the changes implied in RFC7776 and incorporates
+   the changes from RFC8717 and RFC9141.
 
 About This Document
 
@@ -54,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 March 2025.
+   This Internet-Draft will expire on 13 March 2025.
 
 Copyright Notice
 
@@ -98,6 +99,7 @@ Table of Contents
      7.5.  Design teams
      7.6.  Working Group Consultant
      7.7.  Area Director
+     7.8.  Ombudsteam
    8.  Working Group Documents
      8.1.  Session documents
      8.2.  Internet-Drafts (I-D)
@@ -170,14 +172,15 @@ Table of Contents
    is described in [RFC8713].
 
    The area directors sitting as a body, along with the IETF Chair,
-   comprise the Internet Engineering Steering Group (IESG).  The
-   Managing Director, IETF Secretariat, is an ex-officio participant of
-   the IESG, as are the IAB Chair and a designated Internet Architecture
-   Board (IAB) liaison.  The IESG approves IETF Standards and approves
-   the publication of other IETF documents.  (See [bis2026].)
+   comprise the Internet Engineering Steering Group (IESG).  The IETF
+   Managing Director, IETF Secretariat, and the IAB Chair are ex-officio
+   members of the IESG.  There are also liaisons from IANA, the RFC
+   Production Center, the Secretariat, and another from the IAB.  The
+   IESG approves IETF Standards and approves the publication of other
+   IETF documents.  (See [bis2026].)
 
-   A small IETF Secretariat provides staff and administrative support
-   for the operation of the IETF.
+   The IETF Secretariat provides staff and administrative support for
+   the operation of the IETF.
 
    There is no formal membership in the IETF.  Participation is open to
    all.  This participation may be by on-line contribution, attendance
@@ -369,19 +372,8 @@ Table of Contents
        procedures, if any, and
 
    3.  The location of the mailing list archive.  A message archive MUST
-       be maintained in a public place which can be accessed via FTP or
-       via the web.
-
-   As a service to the community, the IETF Secretariat operates a
-   mailing list archive for working group mailing lists.  In order to
-   take advantage of this service, working group mailing lists MUST
-   include the address "wg_acronym-archive@lists.ietf.org" (where
-   "wg_acronym" is the working group acronym) in the mailing list in
-   order that a copy of all mailing list messages be recorded in the
-   Secretariat's archive.  Those archives are located at
-   ftp://ftp.ietf.org/ietf-mail-archive.  For robustness, WGs SHOULD
-   maintain an additional archive separate from that maintained by the
-   Secretariat.
+       be maintained in a public place which can be accessed via the
+       web.
 
    Description of working group  The focus and intent of the group shall
       be set forth briefly.  By reading this section alone, an
@@ -859,7 +851,8 @@ Table of Contents
    Chair also may choose to schedule organized on-line "sessions" with
    agenda and deliverables.  These can be structured as true meetings,
    conducted over the course of several days (to allow participation
-   across the Internet).
+   across the Internet).  They may need to consult with the Ombudsteam
+   (see Section 7.8) if they feel harassment is involved.
 
    Organize, prepare and chair face-to-face and on-line formal sessions.
 
@@ -935,7 +928,9 @@ Table of Contents
    participant.  Their job is to oversee the nature, rather than the
    content, of participant interactions.  That is, they attend to the
    style of the discussion and to the schedule of the agenda, rather
-   than making direct technical contributions themselves.
+   than making direct technical contributions themselves.  They may need
+   to consult with the Ombudsteam (see Section 7.8) if they feel
+   harassment is involved.
 
 7.5.  Design teams
 
@@ -962,6 +957,19 @@ Table of Contents
    their area produce coherent, coordinated, architecturally consistent
    and timely output as a contribution to the overall results of the
    IETF.
+
+7.8.  Ombudsteam
+
+   As noted in [RFC7776]:
+
+      IETF Participants must not engage in harassment while at IETF
+      meetings, virtual meetings, or social events or while
+      participating in mailing lists.  This document lays out procedures
+      for managing and enforcing this policy.
+
+   The Ombudsteam is a resource for the entire IETF intended to address
+   issues of harassment, and all WG participants should feel free to
+   engage with the team if they feel there is an issue.
 
 8.  Working Group Documents
 
@@ -992,23 +1000,20 @@ Table of Contents
    turn into a standards-track document or they may sink from sight.
    Internet-Drafts are submitted to: internet-drafts@ietf.org
 
-   The format of an Internet-Draft must be the same as for an RFC
-   [RFC9281].  Further, an I-D must contain:
-
-   *  Beginning, standard, boilerplate text which is provided by the
-      Secretariat on their web site and in the ftp directory;
+   The format of an Internet-Draft is mostly the same as for an RFC
+   [RFC7322], Section 4; details can also be found at
+   https://authors.ietf.org (https://authors.ietf.org).  In addition, an
+   I-D must contain:
 
    *  The I-D filename; and
 
    *  The expiration date for the I-D.
 
-   Complete specification of requirements for an Internet-Draft are
-   found in the file "1id-guidelines.txt" in the Internet-Drafts
-   directory at an Internet Repository site.  The organization of the
-   Internet-Drafts directory is found in the file "1id-organization" in
-   the Internet-Drafts directory at an Internet Repository site.  This
-   file also contains the rules for naming Internet-Drafts.  (See
-   [bis2026] for more information about Internet-Drafts.)
+   *  Standard boilerplate which can be found in Section 6 of the Trust
+      Legal Provisions (https://trustee.ietf.org/documentation/trust-
+      legal-provisions)
+
+   The tooling available to authors automates most the above.
 
 8.3.  Request For Comments (RFC)
 
@@ -1145,6 +1150,14 @@ Table of Contents
 
    *  Draft 2: Incorporate RFC 7475.  Fix internal references.
 
+   *  Draft 3: Incorporate RFC 8717.
+
+   *  Draft 4: Incoroporate RFC 9141.
+
+   *  Draft 5: Incorporate RFC 7776.  Text reviewed by Adrian Farrel,
+      one of the RFC authors, since it is not really directly including
+      text from the RFC.
+
 13.  References
 
 13.1.  Normative References
@@ -1153,6 +1166,10 @@ Table of Contents
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC7776]  Resnick, P. and A. Farrel, "IETF Anti-Harassment
+              Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
+              2016, <https://www.rfc-editor.org/rfc/rfc7776>.
 
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
@@ -1166,9 +1183,9 @@ Table of Contents
 
    [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-09, 28 August 2024,
+              2026bis-10, 5 September 2024,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-09>.
+              2026bis-10>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
@@ -1284,7 +1301,7 @@ Acknowledgments
    the documents that updated [RFC2418].
 
    We also thank Sandy Ginoza of the Secretariat for sending all the
-   original RFC sources.
+   sources of [RFC2418] and the subsequent documents.
 
 Authors' Addresses
 
