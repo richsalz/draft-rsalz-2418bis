@@ -11,7 +11,7 @@ keyword: process
 stand_alone: yes
 smart_quotes: no
 obsoletes: 2418, 3934
-updates: 7475, 8717, 9141
+updates: 7475, 7776, 8717, 9141
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -48,7 +48,8 @@ including WG Chairs, WG participants, and IETF Area Directors.
 This document obsoletes
 RFC2418, and RFC3934.
 It also includes the changes from RFC7475, and with {{bis2026}}, obsoletes it.
-It also incorporates the changes from RFC8717 and RFC9141.
+It also includes a summary of the changes implied in RFC7776 and
+incorporates the changes from RFC8717 and RFC9141.
 
 --- middle
 
@@ -73,7 +74,7 @@ isolated interconnected networks, which are not connected to the
 global Internet but use the Internet Standards. Internet Standards are
 developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
-The Internet Standards Process of the IETF is defined in {{?bis2026}}. The
+The Internet Standards Process of the IETF is defined in {{bis2026}}. The
 organizations involved in the IETF Standards Process are described in
 {{!RFC9281}} as are the roles of specific individuals.
 
@@ -778,7 +779,10 @@ team, described below.
 The Chair should attempt to ensure that the discussions on this list
 are relevant and that they converge to consensus agreements. The Chair
 should make sure that discussions on the list are summarized and that
-the outcome is well documented (to avoid repetition).  The Chair also
+the outcome is well documented (to avoid repetition).
+They may need to consult with the Ombudsteam (see {{ombudsteam}}) if they
+feel harassment is involved.
+The Chair also
 may choose to schedule organized on-line "sessions" with agenda and
 deliverables.  These can be structured as true meetings, conducted
 over the course of several days (to allow participation across the
@@ -859,6 +863,8 @@ Their job is to oversee the nature, rather than the content, of
 participant interactions.  That is, they attend to the style of the
 discussion and to the schedule of the agenda, rather than making
 direct technical contributions themselves.
+They may need to consult with the Ombudsteam (see {{ombudsteam}})
+if they feel harassment is involved.
 
 ## Design teams
 
@@ -885,6 +891,19 @@ Area Directors are responsible for ensuring that working groups in
 their area produce coherent, coordinated, architecturally consistent
 and timely output as a contribution to the overall results of the
 IETF.
+
+## Ombudsteam {#ombudsteam}
+
+As noted in {{!RFC7776}}:
+
+> IETF Participants must not engage in harassment while at IETF
+> meetings, virtual meetings, or social events or while participating
+> in mailing lists.  This document lays out procedures for managing and
+> enforcing this policy.
+
+The Ombudsteam is a resource for the entire IETF intended to address
+issues of harassment, and all WG participants should feel free to
+engage with the team if they feel there is an issue.
 
 #  Working Group Documents
 
@@ -1063,6 +1082,10 @@ Fix internal references.
 - Draft 3: Incorporate RFC 8717.
 
 - Draft 4: Incoroporate RFC 9141.
+
+- Draft 5: Incorporate RFC 7776.
+Text reviewed by Adrian Farrel, one of the RFC authors,
+since it is not really directly including text from the RFC.
 
 --- back
 
