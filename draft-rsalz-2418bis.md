@@ -73,7 +73,7 @@ isolated interconnected networks, which are not connected to the
 global Internet but use the Internet Standards. Internet Standards are
 developed in the Internet Engineering Task Force (IETF).  This
 document defines guidelines and procedures for IETF working groups.
-The Internet Standards Process of the IETF is defined in {{?bis2026}}. The
+The Internet Standards Process of the IETF is defined in {{bis2026}}. The
 organizations involved in the IETF Standards Process are described in
 {{!RFC9281}} as are the roles of specific individuals.
 
