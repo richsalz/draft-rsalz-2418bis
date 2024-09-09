@@ -847,12 +847,12 @@ Table of Contents
    The Chair should attempt to ensure that the discussions on this list
    are relevant and that they converge to consensus agreements.  The
    Chair should make sure that discussions on the list are summarized
-   and that the outcome is well documented (to avoid repetition).  The
-   Chair also may choose to schedule organized on-line "sessions" with
-   agenda and deliverables.  These can be structured as true meetings,
-   conducted over the course of several days (to allow participation
-   across the Internet).  They may need to consult with the Ombudsteam
-   (see Section 7.8) if they feel harassment is involved.
+   and that the outcome is well documented (to avoid repetition).  They
+   may need to consult with the Ombudsteam (see Section 7.8) if they
+   feel harassment is involved.  The Chair also may choose to schedule
+   organized on-line "sessions" with agenda and deliverables.  These can
+   be structured as true meetings, conducted over the course of several
+   days (to allow participation across the Internet).
 
    Organize, prepare and chair face-to-face and on-line formal sessions.
 
