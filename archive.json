@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-09-08T01:23:54.674486+00:00",
+  "timestamp": "2024-09-10T01:18:59.343559+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -250,6 +250,34 @@
       "mergedBy": "richsalz",
       "mergeCommit": {
         "oid": "81630568ce20a00a900b1f6bba6a25b7b946afc8"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOMaVM68563cq3",
+      "title": "Proposed text for incorporating RFC7776",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/9",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "The last one.\r\n",
+      "createdAt": "2024-09-09T15:07:01Z",
+      "updatedAt": "2024-09-09T16:34:51Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "81630568ce20a00a900b1f6bba6a25b7b946afc8",
+      "headRepository": "richsalz/draft-rsalz-2418bis",
+      "headRefName": "rfc7776",
+      "headRefOid": "d2a5761cb0fa695ff6c43c5bb434ae19fb39830f",
+      "closedAt": "2024-09-09T16:34:47Z",
+      "mergedAt": "2024-09-09T16:34:47Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "73e05b77c5e2b591a1f8cc93877a9bfc9637e16a"
       },
       "comments": [],
       "reviews": []
