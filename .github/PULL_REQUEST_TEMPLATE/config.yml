@@ -1,0 +1,9 @@
+body:
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: License
+      description: I agree this can be distrubted under the [Apache License](https://www.apache.org/license/LICENSE-2.0).
+      options:
+        - label: I agree this can be distrubted under the [Apache License](https://www.apache.org/license/LICENSE-2.0).
+          required: true
