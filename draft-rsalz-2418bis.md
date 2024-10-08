@@ -1184,4 +1184,6 @@ particular, we thank the authors of all the documents that updated
 {{?RFC2418}}.
 
 We also thank Sandy Ginoza of the Secretariat for sending all the
-sources of {{?RFC2418}} and the subsequent documents.
+sources of {{?RFC2418}} and the subsequent documents,
+and John Klensin for his support and cooperation during the process
+of creating this document.
