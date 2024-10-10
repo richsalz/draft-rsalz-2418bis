@@ -5,9 +5,9 @@
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
-Updates: 7475, 8717, 9141 (if approved)                            SOBCO
-Intended status: Best Current Practice                  5 September 2024
-Expires: 9 March 2025
+Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
+Intended status: Best Current Practice                   10 October 2024
+Expires: 13 April 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -27,7 +27,8 @@ Abstract
 
    This document obsoletes RFC2418, and RFC3934.  It also includes the
    changes from RFC7475, and with [bis2026], obsoletes it.  It also
-   incorporates the changes from RFC8717 and RFC9141.
+   includes a summary of the changes implied in RFC7776 and incorporates
+   the changes from RFC8717 and RFC9141.
 
 About This Document
 
@@ -54,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 March 2025.
+   This Internet-Draft will expire on 13 April 2025.
 
 Copyright Notice
 
@@ -98,6 +99,7 @@ Table of Contents
      7.5.  Design teams
      7.6.  Working Group Consultant
      7.7.  Area Director
+     7.8.  Ombudsteam
    8.  Working Group Documents
      8.1.  Session documents
      8.2.  Internet-Drafts (I-D)
@@ -117,14 +119,12 @@ Table of Contents
 
 1.  Introduction
 
-       NOTE: This document started with the raw text of RFC 2418.  The
-       plan is that each version of this Internet-Draft will
-       incorporate one of the six RFCs that updated the original. Once
-       all have been mergfed in, we will submit this to the GENDISPATCH
-       working group to determine the next steps.
-
-       Specifically, the RFCs to be incorporated are RFC 2418, RFC
-       3934, RFC 7475, RFC 7776, RFC 8717, and RFC 9141
+       NOTE: This document started with the raw text of RFC 2418, and
+       subsequent drafts each incorporated the text of RFC 3934, RFC
+       7475, RFC 7776, RFC 8717 (although the change to "Managing
+       Director, Secretariat" does not seem right), and RFC 9141.
+       A final update addressed all the errata. We have submitted this
+       to the GENDISPATCH working group to determine the next steps.
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -845,11 +845,12 @@ Table of Contents
    The Chair should attempt to ensure that the discussions on this list
    are relevant and that they converge to consensus agreements.  The
    Chair should make sure that discussions on the list are summarized
-   and that the outcome is well documented (to avoid repetition).  The
-   Chair also may choose to schedule organized on-line "sessions" with
-   agenda and deliverables.  These can be structured as true meetings,
-   conducted over the course of several days (to allow participation
-   across the Internet).
+   and that the outcome is well documented (to avoid repetition).  They
+   may need to consult with the Ombudsteam (see Section 7.8) if they
+   feel harassment is involved.  The Chair also may choose to schedule
+   organized on-line "sessions" with agenda and deliverables.  These can
+   be structured as true meetings, conducted over the course of several
+   days (to allow participation across the Internet).
 
    Organize, prepare and chair face-to-face and on-line formal sessions.
 
@@ -925,7 +926,9 @@ Table of Contents
    participant.  Their job is to oversee the nature, rather than the
    content, of participant interactions.  That is, they attend to the
    style of the discussion and to the schedule of the agenda, rather
-   than making direct technical contributions themselves.
+   than making direct technical contributions themselves.  They may need
+   to consult with the Ombudsteam (see Section 7.8) if they feel
+   harassment is involved.
 
 7.5.  Design teams
 
@@ -952,6 +955,19 @@ Table of Contents
    their area produce coherent, coordinated, architecturally consistent
    and timely output as a contribution to the overall results of the
    IETF.
+
+7.8.  Ombudsteam
+
+   As noted in [RFC7776]:
+
+      IETF Participants must not engage in harassment while at IETF
+      meetings, virtual meetings, or social events or while
+      participating in mailing lists.  This document lays out procedures
+      for managing and enforcing this policy.
+
+   The Ombudsteam is a resource for the entire IETF intended to address
+   issues of harassment, and all WG participants should feel free to
+   engage with the team if they feel there is an issue.
 
 8.  Working Group Documents
 
@@ -1136,6 +1152,13 @@ Table of Contents
 
    *  Draft 4: Incoroporate RFC 9141.
 
+   *  Draft 5: Incorporate RFC 7776.  Text reviewed by Adrian Farrel,
+      one of the RFC authors, since it is not really directly including
+      text from the RFC.
+
+   *  Draft 6: Addressed the editorial issues found by the following
+      errata: 6787.  Errata 3752. 6130, 7408 were previously fixed.
+
 13.  References
 
 13.1.  Normative References
@@ -1144,6 +1167,10 @@ Table of Contents
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC7776]  Resnick, P. and A. Farrel, "IETF Anti-Harassment
+              Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
+              2016, <https://www.rfc-editor.org/rfc/rfc7776>.
 
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
@@ -1157,9 +1184,9 @@ Table of Contents
 
    [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-09, 28 August 2024,
+              2026bis-11, 8 October 2024,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-09>.
+              2026bis-11>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
@@ -1215,7 +1242,7 @@ Appendix: Sample Working Group Charter
   protocols for providing related services.
 
   The primary purpose of this working group is to develop two such
-  supportive protocols and a frameword document. They are:
+  supportive protocols and a framework document. They are:
 
   1. Call Processing Syntax. When a call is setup between two endpoints,
   the signaling will generally pass through several servers (such as an
@@ -1275,7 +1302,9 @@ Acknowledgments
    the documents that updated [RFC2418].
 
    We also thank Sandy Ginoza of the Secretariat for sending all the
-   sources of [RFC2418] and the subsequent documents.
+   sources of [RFC2418] and the subsequent documents, and John Klensin
+   for his support and cooperation during the process of creating this
+   document.
 
 Authors' Addresses
 
