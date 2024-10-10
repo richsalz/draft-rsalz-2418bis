@@ -27,7 +27,7 @@ incorporates the changes from RFC8717 and RFC9141.
 <meta content="draft-rsalz-2418bis-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.23.2
-    Python 3.12.6
+    Python 3.12.7
     ConfigArgParse 1.7
     google-i18n-address 3.1.1
     intervaltree 3.1.0
@@ -1041,7 +1041,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Salz &amp; Bradner</td>
-<td class="center">Expires 7 April 2025</td>
+<td class="center">Expires 13 April 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1060,12 +1060,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a>, <a href="https://www.rfc-editor.org/rfc/rfc7776" class="eref">7776</a>, <a href="https://www.rfc-editor.org/rfc/rfc8717" class="eref">8717</a>, <a href="https://www.rfc-editor.org/rfc/rfc9141" class="eref">9141</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-10-04" class="published">4 October 2024</time>
+<time datetime="2024-10-10" class="published">10 October 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-04-07">7 April 2025</time></dd>
+<dd class="expires"><time datetime="2025-04-13">13 April 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1125,7 +1125,7 @@ incorporates the changes from RFC8717 and RFC9141.<a href="#section-abstract-2" 
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 7 April 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 13 April 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1308,14 +1308,12 @@ incorporates the changes from RFC8717 and RFC9141.<a href="#section-abstract-2" 
       </h2>
 <div class="alignLeft art-text artwork" id="section-1-1">
 <pre>
-    NOTE: This document started with the raw text of RFC 2418.  The
-    plan is that each version of this Internet-Draft will
-    incorporate one of the six RFCs that updated the original. Once
-    all have been mergfed in, we will submit this to the GENDISPATCH
-    working group to determine the next steps.
-
-    Specifically, the RFCs to be incorporated are RFC 2418, RFC
-    3934, RFC 7475, RFC 7776, RFC 8717, and RFC 9141
+    NOTE: This document started with the raw text of RFC 2418, and
+    subsequent drafts each incorporated the text of RFC 3934, RFC
+    7475, RFC 7776, RFC 8717 (although the change to "Managing
+    Director, Secretariat" does not seem right), and RFC 9141.
+    A final update addressed all the errata. We have submitted this
+    to the GENDISPATCH working group to determine the next steps.
 </pre><a href="#section-1-1" class="pilcrow">¶</a>
 </div>
 <p id="section-1-2">The Internet, a loosely-organized international collaboration of
@@ -2565,6 +2563,11 @@ Fix internal references.<a href="#section-12-1.3.1" class="pilcrow">¶</a></p>
 Text reviewed by Adrian Farrel, one of the RFC authors,
 since it is not really directly including text from the RFC.<a href="#section-12-1.6.1" class="pilcrow">¶</a></p>
 </li>
+        <li class="normal" id="section-12-1.7">
+          <p id="section-12-1.7.1">Draft 6: Addressed the editorial issues found by the following
+errata: 6787.
+Errata 3752. 6130, 7408 were previously fixed.<a href="#section-12-1.7.1" class="pilcrow">¶</a></p>
+</li>
       </ul>
 </section>
 </div>
@@ -2606,7 +2609,7 @@ since it is not really directly including text from the RFC.<a href="#section-12
 <dl class="references">
 <dt id="bis2026">[bis2026]</dt>
         <dd>
-<span class="refAuthor">Salz, R.</span> and <span class="refAuthor">S. O. Bradner</span>, <span class="refTitle">"The Internet Standards Process"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-rsalz-2026bis-10</span>, <time datetime="2024-09-05" class="refDate">5 September 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis-10">https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis-10</a>&gt;</span>. </dd>
+<span class="refAuthor">Salz, R.</span> and <span class="refAuthor">S. O. Bradner</span>, <span class="refTitle">"The Internet Standards Process"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-rsalz-2026bis-11</span>, <time datetime="2024-10-08" class="refDate">8 October 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis-11">https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis-11</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="RFC1796">[RFC1796]</dt>
         <dd>
@@ -2669,7 +2672,7 @@ capabilities exchange, but also include a number of "peripheral"
 protocols for providing related services.
 
 The primary purpose of this working group is to develop two such
-supportive protocols and a frameword document. They are:
+supportive protocols and a framework document. They are:
 
 1. Call Processing Syntax. When a call is setup between two endpoints,
 the signaling will generally pass through several servers (such as an
@@ -2734,7 +2737,9 @@ IETF RFC's and the processes that create both the content and documents.  In
 particular, we thank the authors of all the documents that updated
 <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span>.<a href="#appendix-B-1" class="pilcrow">¶</a></p>
 <p id="appendix-B-2">We also thank Sandy Ginoza of the Secretariat for sending all the
-sources of <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span> and the subsequent documents.<a href="#appendix-B-2" class="pilcrow">¶</a></p>
+sources of <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span> and the subsequent documents,
+and John Klensin for his support and cooperation during the process
+of creating this document.<a href="#appendix-B-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">

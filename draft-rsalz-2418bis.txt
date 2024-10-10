@@ -6,8 +6,8 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
 Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                    4 October 2024
-Expires: 7 April 2025
+Intended status: Best Current Practice                   10 October 2024
+Expires: 13 April 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 April 2025.
+   This Internet-Draft will expire on 13 April 2025.
 
 Copyright Notice
 
@@ -119,14 +119,12 @@ Table of Contents
 
 1.  Introduction
 
-       NOTE: This document started with the raw text of RFC 2418.  The
-       plan is that each version of this Internet-Draft will
-       incorporate one of the six RFCs that updated the original. Once
-       all have been mergfed in, we will submit this to the GENDISPATCH
-       working group to determine the next steps.
-
-       Specifically, the RFCs to be incorporated are RFC 2418, RFC
-       3934, RFC 7475, RFC 7776, RFC 8717, and RFC 9141
+       NOTE: This document started with the raw text of RFC 2418, and
+       subsequent drafts each incorporated the text of RFC 3934, RFC
+       7475, RFC 7776, RFC 8717 (although the change to "Managing
+       Director, Secretariat" does not seem right), and RFC 9141.
+       A final update addressed all the errata. We have submitted this
+       to the GENDISPATCH working group to determine the next steps.
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -1158,6 +1156,9 @@ Table of Contents
       one of the RFC authors, since it is not really directly including
       text from the RFC.
 
+   *  Draft 6: Addressed the editorial issues found by the following
+      errata: 6787.  Errata 3752. 6130, 7408 were previously fixed.
+
 13.  References
 
 13.1.  Normative References
@@ -1183,9 +1184,9 @@ Table of Contents
 
    [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-10, 5 September 2024,
+              2026bis-11, 8 October 2024,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-10>.
+              2026bis-11>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
@@ -1241,7 +1242,7 @@ Appendix: Sample Working Group Charter
   protocols for providing related services.
 
   The primary purpose of this working group is to develop two such
-  supportive protocols and a frameword document. They are:
+  supportive protocols and a framework document. They are:
 
   1. Call Processing Syntax. When a call is setup between two endpoints,
   the signaling will generally pass through several servers (such as an
@@ -1301,7 +1302,9 @@ Acknowledgments
    the documents that updated [RFC2418].
 
    We also thank Sandy Ginoza of the Secretariat for sending all the
-   sources of [RFC2418] and the subsequent documents.
+   sources of [RFC2418] and the subsequent documents, and John Klensin
+   for his support and cooperation during the process of creating this
+   document.
 
 Authors' Addresses
 
