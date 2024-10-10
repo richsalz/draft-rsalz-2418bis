@@ -56,15 +56,12 @@ incorporates the changes from RFC8717 and RFC9141.
 
 # Introduction
 
-        NOTE: This document started with the raw text of RFC 2418.  The
-        plan is that each version of this Internet-Draft will
-        incorporate one of the six RFCs that updated the original. Once
-        all have been mergfed in, we will submit this to the GENDISPATCH
-        working group to determine the next steps.
-
-        Specifically, the RFCs to be incorporated are RFC 2418, RFC
-        3934, RFC 7475, RFC 7776, RFC 8717, and RFC 9141
-
+        NOTE: This document started with the raw text of RFC 2418, and
+        subsequent drafts each incorporated the text of RFC 3934, RFC
+        7475, RFC 7776, RFC 8717 (although the change to "Managing
+        Director, Secretariat" does not seem right), and RFC 9141.
+        A final update addressed all the errata. We have submitted this
+        to the GENDISPATCH working group to determine the next steps.
 
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
@@ -1087,6 +1084,10 @@ Fix internal references.
 Text reviewed by Adrian Farrel, one of the RFC authors,
 since it is not really directly including text from the RFC.
 
+- Draft 6: Addressed the editorial issues found by the following
+errata: 6787.
+Errata 3752. 6130, 7408 were previously fixed.
+
 --- back
 
 # Appendix:  Sample Working Group Charter {#sample-charter}
@@ -1122,7 +1123,7 @@ capabilities exchange, but also include a number of "peripheral"
 protocols for providing related services.
 
 The primary purpose of this working group is to develop two such
-supportive protocols and a frameword document. They are:
+supportive protocols and a framework document. They are:
 
 1. Call Processing Syntax. When a call is setup between two endpoints,
 the signaling will generally pass through several servers (such as an
@@ -1184,4 +1185,6 @@ particular, we thank the authors of all the documents that updated
 {{?RFC2418}}.
 
 We also thank Sandy Ginoza of the Secretariat for sending all the
-sources of {{?RFC2418}} and the subsequent documents.
+sources of {{?RFC2418}} and the subsequent documents,
+and John Klensin for his support and cooperation during the process
+of creating this document.
