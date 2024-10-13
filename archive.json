@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-10T01:21:38.743785+00:00",
+  "timestamp": "2024-10-13T01:27:27.497491+00:00",
   "repo": "richsalz/draft-rsalz-2418bis",
   "labels": [
     {
@@ -113,6 +113,54 @@
           "updatedAt": "2024-09-04T15:19:52Z"
         }
       ]
+    },
+    {
+      "number": 11,
+      "id": "I_kwDOMaVM686Z2UfB",
+      "title": "update IETF Meetings",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/11",
+      "state": "OPEN",
+      "author": "moonshiner",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "still talks of emailing agenda@ietf.org\r\n\r\nand may want to discuss newer tools to manage meetings. but maybe not",
+      "createdAt": "2024-10-11T11:34:15Z",
+      "updatedAt": "2024-10-11T11:34:15Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 12,
+      "id": "I_kwDOMaVM686Z2VP_",
+      "title": "Staff Roles",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/12",
+      "state": "OPEN",
+      "author": "moonshiner",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "These two feel very outdated\r\n\r\n Document Editor\r\n\r\nWG Facilitator\r\n\r\n\"Working Group Consultant\" is more like Adviser now from another area\r\n\r\n",
+      "createdAt": "2024-10-11T11:35:29Z",
+      "updatedAt": "2024-10-11T11:35:29Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 13,
+      "id": "I_kwDOMaVM686Z2afq",
+      "title": "Update Charter to add Privacy and Security ",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/issues/13",
+      "state": "OPEN",
+      "author": "moonshiner",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "discuss objectives and expected impact with respect to:\r\n\r\nPrivacy \r\n\r\nSecurity\r\n\r\n",
+      "createdAt": "2024-10-11T11:42:47Z",
+      "updatedAt": "2024-10-11T11:42:47Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -278,6 +326,34 @@
       "mergedBy": "richsalz",
       "mergeCommit": {
         "oid": "73e05b77c5e2b591a1f8cc93877a9bfc9637e16a"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOMaVM685-QdvC",
+      "title": "Errata",
+      "url": "https://github.com/richsalz/draft-rsalz-2418bis/pull/10",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-10T18:25:34Z",
+      "updatedAt": "2024-10-10T18:41:01Z",
+      "baseRepository": "richsalz/draft-rsalz-2418bis",
+      "baseRefName": "main",
+      "baseRefOid": "499d97243662b2fbde7881ba9872a6dd6db2e00d",
+      "headRepository": "richsalz/draft-rsalz-2418bis",
+      "headRefName": "errata",
+      "headRefOid": "3f8b4aa4ca93fa11ff21c4ad10b34db2a874b87c",
+      "closedAt": "2024-10-10T18:40:57Z",
+      "mergedAt": "2024-10-10T18:40:57Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "5c9858603fc6b0a47377fdb843297405799d0ed8"
       },
       "comments": [],
       "reviews": []
