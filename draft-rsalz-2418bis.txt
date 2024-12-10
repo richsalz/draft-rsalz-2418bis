@@ -6,8 +6,8 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2418, 3934 (if approved)                           S. Bradner
 Updates: 7475, 7776, 8717, 9141 (if approved)                      SOBCO
-Intended status: Best Current Practice                   10 October 2024
-Expires: 13 April 2025
+Intended status: Best Current Practice                  10 December 2024
+Expires: 13 June 2025
 
 
               IETF Working Group Guidelines and Procedures
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 April 2025.
+   This Internet-Draft will expire on 13 June 2025.
 
 Copyright Notice
 
@@ -1184,9 +1184,9 @@ Table of Contents
 
    [bis2026]  Salz, R. and S. O. Bradner, "The Internet Standards
               Process", Work in Progress, Internet-Draft, draft-rsalz-
-              2026bis-11, 8 October 2024,
+              2026bis-12, 10 October 2024,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2026bis-11>.
+              2026bis-12>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
